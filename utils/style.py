@@ -64,12 +64,15 @@ def inject_styles():
         .banner-title {
             flex: 1;
             text-align: center;
-            font-size: clamp(2rem, 2.4vw, 3.1rem);
+            font-size: clamp(1.5rem, 1.8vw, 2.4rem);
             font-weight: 800;
             color: white;
-            letter-spacing: 0.02em;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
             font-family: 'Segoe UI', Tahoma, sans-serif;
             z-index: 1;
+            white-space: nowrap;
+            line-height: 1.15;
         }
 
         .banner-left, .banner-right {
@@ -152,30 +155,49 @@ def inject_styles():
 
         .sidebar-logo {
             display: flex;
-            align-items: center;
-            gap: 0.9rem;
-            margin: 0.8rem 0 1.5rem 0;
-            padding: 0.5rem 0.2rem;
-        }
-
-        .sidebar-logo .mark {
-            width: 54px;
-            height: 54px;
-            border-radius: 50%;
-            display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, #f2c763, #d9a229);
-            color: #0c6a5f;
-            font-size: 1.7rem;
-            font-weight: 800;
+            gap: 0.35rem;
+            margin: 0.8rem 0 1.3rem 0;
+            padding: 0.5rem 0.2rem 0.9rem 0.2rem;
+            border-bottom: 1px solid rgba(15,143,115,0.18);
+        }
+
+        .sidebar-emblem {
+            display: block;
+            width: 76px;
+            height: 92px;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 8px rgba(10,120,90,0.12));
+        }
+
+        .sidebar-brand {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .sidebar-logo .name {
-            font-size: 2rem;
+            font-size: 1.4rem;
             font-weight: 800;
             color: #0c6a5f;
             letter-spacing: -0.02em;
+            text-align: center;
+        }
+
+        .sidebar-attribution {
+            margin-top: 0.35rem;
+            text-align: center;
+            font-size: 0.65rem;
+            line-height: 1.45;
+            color: #5d6f72;
+        }
+
+        .sidebar-attribution a {
+            color: #49615e;
+            text-decoration: underline;
+            text-underline-offset: 2px;
         }
 
         .sidebar-group-heading {

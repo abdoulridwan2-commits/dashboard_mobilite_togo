@@ -10,7 +10,7 @@ def show_vehicules_permis():
     vehicules = data["vehicules"]
     permis = data["permis"]
 
-    render_header("Mobilité : véhicules et permis")
+    render_header("ADMINISTRATION TERRITORIALE ET MOBILITE | DEFI 1")
     section_title("Évolution du parc et des titres de conduite")
 
     fig1 = px.line(

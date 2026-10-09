@@ -4,7 +4,7 @@ from utils.components import render_header, section_title
 
 
 def show_recommandations():
-    render_header("Recommandations")
+    render_header("ADMINISTRATION TERRITORIALE ET MOBILITE | DEFI 1")
     section_title("Pistes d’action pour une mobilité plus sûre")
 
     recommendations = [

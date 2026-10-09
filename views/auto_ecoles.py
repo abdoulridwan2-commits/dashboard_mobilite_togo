@@ -10,7 +10,7 @@ def show_auto_ecoles():
     auto_ecoles = data["auto_ecoles"]
     pref = data["prefectures"]
 
-    render_header("Auto-écoles")
+    render_header("ADMINISTRATION TERRITORIALE ET MOBILITE | DEFI 1")
     section_title("Répartition géographique et densité")
 
     par_region = auto_ecoles.groupby("region").size().reset_index(name="nb_auto_ecoles")

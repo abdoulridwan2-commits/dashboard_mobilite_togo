@@ -1,4 +1,4 @@
-APP_TITLE = "Mobilité et sécurité routière au Togo"
+APP_TITLE = "ADMINISTRATION TERRITORIALE ET MOBILITE | DEFI 1"
 APP_SUBTITLE = "Dashboard de suivi territorial"
 
 COLORS = {

@@ -1,3 +1,6 @@
+import base64
+from pathlib import Path
+
 import streamlit as st
 
 from config import APP_TITLE, COLORS
@@ -34,35 +37,25 @@ def metric_card(label: str, value: str, delta: str = ""):
 
 
 def render_sidebar(items):
+    emblem_path = Path(__file__).resolve().parent.parent / "assets" / "Armoiries_du_Togo.svg"
+    emblem = base64.b64encode(emblem_path.read_bytes()).decode("ascii")
     st.sidebar.markdown(
-        """
+        f"""
         <div class="sidebar-logo">
-            <div class="mark">🦁</div>
-            <div class="name">Togo AI Lab</div>
+            <img class="sidebar-emblem" src="data:image/svg+xml;base64,{emblem}" alt="Armoiries du Togo">
+            <div class="sidebar-brand">
+                <div class="name">Togo AI Lab</div>
+                <div class="sidebar-attribution">
+                    <a href="https://commons.wikimedia.org/wiki/File:Armoiries_du_Togo.svg" target="_blank">Edem Fiadjoe · Wikimedia Commons</a><br>
+                    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+                </div>
+            </div>
         </div>
         """,
         unsafe_allow_html=True,
     )
 
-    st.sidebar.markdown(
-        """
-        <div class="sidebar-group-heading">Objectifs</div>
-        """,
-        unsafe_allow_html=True,
-    )
-    selection = st.sidebar.radio("Navigation", items, index=1, label_visibility="collapsed")
-
-    st.sidebar.markdown(
-        """
-        <div class="sidebar-section-label">Sections</div>
-        """,
-        unsafe_allow_html=True,
-    )
-    st.sidebar.markdown("<div class='nav-box'>🚦 Mobilité</div>", unsafe_allow_html=True)
-    st.sidebar.markdown("<div class='nav-box'>🛡️ Sécurité routière</div>", unsafe_allow_html=True)
-    st.sidebar.markdown("<div class='nav-box'>🛣️ Réseau routier</div>", unsafe_allow_html=True)
-    st.sidebar.markdown("<div class='nav-box'>🗺️ Cartographie</div>", unsafe_allow_html=True)
-    st.sidebar.markdown("<div class='nav-box'>💡 Recommandations</div>", unsafe_allow_html=True)
+    selection = st.sidebar.radio("Navigation", items, index=0, label_visibility="collapsed")
 
     st.sidebar.markdown("<div class='nav-reset-holder'>", unsafe_allow_html=True)
     if st.sidebar.button("◌ Réinitialiser", use_container_width=True):

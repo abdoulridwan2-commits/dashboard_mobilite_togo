@@ -9,7 +9,7 @@ def show_accidents():
     data = get_data()
     accidents = data["accidents"]
 
-    render_header("Sécurité routière : accidents et victimes")
+    render_header("ADMINISTRATION TERRITORIALE ET MOBILITE | DEFI 1")
     section_title("Évolution des accidents, blessés et morts")
 
     fig = px.line(
