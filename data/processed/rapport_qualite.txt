@@ -1,0 +1,98 @@
+NETTOYAGE DES DONNÉES - Mobilité et sécurité routière au Togo
+
+======================================================================
+1. PARC DE VÉHICULES IMMATRICULÉS (national)
+======================================================================
+  Années : 1990-2022 ; valeurs manquantes : 0
+  La ligne « Total » de la source est exclue des types (évite le double comptage).
+  Contrôle : la somme des types égale le Total source pour toutes les années.
+  -> data/processed/parc_vehicules.csv (231 lignes)
+
+======================================================================
+2. PERMIS DE CONDUIRE DÉLIVRÉS (national)
+======================================================================
+  Années : 2007-2022
+  Contrôle : la somme des catégories égale le Total source (hors années vides).
+  À vérifier : permis moto très supérieurs à la médiane (236) en {2019: 2425, 2022: 4837}
+  -> data/processed/permis.csv (90 lignes)
+
+======================================================================
+4. ROUTES CLASSÉES (tracés)
+======================================================================
+  799 segments, 38 préfectures, 5 régions.
+  Segments sans nom de route : 2 (marqués « Non renseigné »).
+  Colonne route_classee supprimée (toujours « Oui »). Longueur calculée depuis la géométrie.
+  Longueur totale : 3373 km dont revêtue : 2185 km.
+  -> data/processed/routes_classees.csv (799 lignes)
+
+======================================================================
+5. AUTO-ÉCOLES
+======================================================================
+  272 auto-écoles ; sans coordonnées : 0.
+  Statuts : {'Non agréée': 138, 'Agréée': 85, 'Antenne agréée': 47, 'Non renseigné': 2}
+  Colonne activite_categorie supprimée (toujours « Auto-école »).
+  -> data/processed/auto_ecoles.csv (272 lignes)
+
+======================================================================
+6. POPULATION 2022
+======================================================================
+  Population nationale : 8 095 498
+  Régions du recensement : {'MARITIME': 1346615, 'DAGL': 2188376, 'PLATEAUX': 1635946, 'CENTRALE': 795529, 'KARA': 985512, 'SAVANES': 1143520}
+  Somme des 6 entités = 8 095 498 (OK).
+  Piège réglé : dans le recensement, Lomé (DAGL) est séparé de la Maritime ; dans les fichiers
+  routes et auto-écoles, Golfe et Agoè-Nyivé sont rattachés à la Maritime. La population de la
+  Maritime = Maritime + DAGL pour que les ratios soient comparables.
+  Préfecture(s) ajoutée(s) car absente(s) des fichiers routes et auto-écoles : ['Mô'].
+  Préfecture Avé : somme de 2 communes.
+  Contrôle somme des préfectures par région / population de la région :
+    Maritime   3 534 991 /  3 534 991  (OK)
+    Plateaux   1 635 946 /  1 635 946  (OK)
+    Centrale     795 529 /    795 529  (OK)
+    Kara         985 512 /    985 512  (OK)
+    Savanes    1 143 520 /  1 143 520  (OK)
+  -> data/processed/population_prefectures.csv (39 lignes)
+  Communes : non utilisées (numérotation différente d'un fichier à l'autre : « Amou 3 »,
+  « Binah 2 », « Danyi 1+Danyi 2 »...). Le niveau préfecture est fiable ; le filtre
+  « Commune » du tableau de bord est donc à retirer ou à limiter.
+
+======================================================================
+3. ACCIDENTS DE LA ROUTE (national)
+======================================================================
+  Libellé source « Accidents mortels /100.000 hab » : valeurs vérifiées comme
+  accidents / population x 100 000 (2022 : 92.73 calculé contre 92.73 dans la source).
+  La colonne est donc renommée accidents_pour_100k_hab.
+  Années : 2010-2022
+  Population : seul le recensement 2022 est dans les données ; pour 2010-2021 elle est
+  ESTIMÉE à partir du taux ci-dessus (croissance régulière, donc cohérente).
+  À vérifier : accidents en variation de 154% en 2011 (changement de couverture ?).
+  À vérifier : accidents en variation de 89% en 2016 (changement de couverture ?).
+  Rappel : le parc immatriculé varie fortement d'une année à l'autre ; il s'agit donc
+  d'immatriculations annuelles, plus que d'un parc cumulé. Les ratios « pour 1000 véhicules »
+  sont à présenter avec cette réserve.
+  -> data/processed/accidents_national.csv (13 lignes)
+  -> data/processed/autres_indicateurs_nationaux.csv (157 lignes)
+  Recoupement : 9 années de deux-roues présentes aussi dans ce fichier (ignorées, déjà dans le parc).
+
+======================================================================
+7. ÉTAT DU RÉSEAU ROUTIER (2020)
+======================================================================
+  86 tronçons ({'Routes revêtues': 52, 'Routes en terre': 32, 'Voiries en terre': 1, 'Voiries revêtues': 1}).
+  Lignes « TOTAL » et « TOTAL RT » de la source retirées des tronçons (sinon doubles comptages) ;
+  état « TRAVAUX » traité comme une catégorie à part ; valeurs absentes = 0 km.
+  Un seul millésime (2020) : pas d'évolution possible, seulement une photo par région.
+  Contrôle : somme des tronçons contre les totaux de la source :
+    Routes en terre    OK
+    Routes revêtues    OK
+  Part des routes (km) rattachée à une région : 99.6%
+    dont attribution manuelle à vérifier : 295 km
+    tronçons traversant plusieurs régions (km affectés à la région dominante) : 2
+    non attribué : ALINMONDJI (RN1)-ELAVAGNON
+  -> data/processed/etat_routes.csv (86 lignes)
+
+======================================================================
+8. INDICATEURS PAR PRÉFECTURE ET PAR RÉGION
+======================================================================
+  -> data/processed/indicateurs_prefectures.csv (39 lignes)
+  -> data/processed/indicateurs_regions.csv (5 lignes)
+  Rappel : l'état des routes ne concerne que les routes (revêtues et en terre) rattachées à une
+  région ; les tronçons « Non attribué » sont exclus de ces parts.

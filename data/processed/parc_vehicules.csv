@@ -1,0 +1,232 @@
+﻿annee,type_vehicule,groupe,valeur
+1990,Autocars et autobus,Bus et autocars,59
+1990,Camionnettes,Voitures et camionnettes,1106
+1990,Camions,Poids lourds,195
+1990,Deux-roues et assimilés,Deux-roues,1513
+1990,Semi-remorques,Poids lourds,63
+1990,Tracteurs,Tracteurs,79
+1990,Voitures,Voitures et camionnettes,3814
+1991,Autocars et autobus,Bus et autocars,31
+1991,Camionnettes,Voitures et camionnettes,1052
+1991,Camions,Poids lourds,197
+1991,Deux-roues et assimilés,Deux-roues,1601
+1991,Semi-remorques,Poids lourds,91
+1991,Tracteurs,Tracteurs,93
+1991,Voitures,Voitures et camionnettes,4004
+1992,Autocars et autobus,Bus et autocars,32
+1992,Camionnettes,Voitures et camionnettes,891
+1992,Camions,Poids lourds,211
+1992,Deux-roues et assimilés,Deux-roues,1641
+1992,Semi-remorques,Poids lourds,75
+1992,Tracteurs,Tracteurs,100
+1992,Voitures,Voitures et camionnettes,4300
+1993,Autocars et autobus,Bus et autocars,3
+1993,Camionnettes,Voitures et camionnettes,535
+1993,Camions,Poids lourds,153
+1993,Deux-roues et assimilés,Deux-roues,982
+1993,Semi-remorques,Poids lourds,42
+1993,Tracteurs,Tracteurs,57
+1993,Voitures,Voitures et camionnettes,2577
+1994,Autocars et autobus,Bus et autocars,29
+1994,Camionnettes,Voitures et camionnettes,710
+1994,Camions,Poids lourds,166
+1994,Deux-roues et assimilés,Deux-roues,1887
+1994,Semi-remorques,Poids lourds,41
+1994,Tracteurs,Tracteurs,64
+1994,Voitures,Voitures et camionnettes,3227
+1995,Autocars et autobus,Bus et autocars,15
+1995,Camionnettes,Voitures et camionnettes,853
+1995,Camions,Poids lourds,204
+1995,Deux-roues et assimilés,Deux-roues,13883
+1995,Semi-remorques,Poids lourds,71
+1995,Tracteurs,Tracteurs,82
+1995,Voitures,Voitures et camionnettes,6728
+1996,Autocars et autobus,Bus et autocars,16
+1996,Camionnettes,Voitures et camionnettes,1296
+1996,Camions,Poids lourds,325
+1996,Deux-roues et assimilés,Deux-roues,15383
+1996,Semi-remorques,Poids lourds,143
+1996,Tracteurs,Tracteurs,153
+1996,Voitures,Voitures et camionnettes,6239
+1997,Autocars et autobus,Bus et autocars,28
+1997,Camionnettes,Voitures et camionnettes,1850
+1997,Camions,Poids lourds,375
+1997,Deux-roues et assimilés,Deux-roues,14445
+1997,Semi-remorques,Poids lourds,70
+1997,Tracteurs,Tracteurs,84
+1997,Voitures,Voitures et camionnettes,7503
+1998,Autocars et autobus,Bus et autocars,35
+1998,Camionnettes,Voitures et camionnettes,1787
+1998,Camions,Poids lourds,545
+1998,Deux-roues et assimilés,Deux-roues,10603
+1998,Semi-remorques,Poids lourds,89
+1998,Tracteurs,Tracteurs,140
+1998,Voitures,Voitures et camionnettes,7470
+1999,Autocars et autobus,Bus et autocars,26
+1999,Camionnettes,Voitures et camionnettes,1566
+1999,Camions,Poids lourds,501
+1999,Deux-roues et assimilés,Deux-roues,12917
+1999,Semi-remorques,Poids lourds,104
+1999,Tracteurs,Tracteurs,147
+1999,Voitures,Voitures et camionnettes,8642
+2000,Autocars et autobus,Bus et autocars,30
+2000,Camionnettes,Voitures et camionnettes,1456
+2000,Camions,Poids lourds,460
+2000,Deux-roues et assimilés,Deux-roues,10639
+2000,Semi-remorques,Poids lourds,102
+2000,Tracteurs,Tracteurs,139
+2000,Voitures,Voitures et camionnettes,7154
+2001,Autocars et autobus,Bus et autocars,32
+2001,Camionnettes,Voitures et camionnettes,1567
+2001,Camions,Poids lourds,497
+2001,Deux-roues et assimilés,Deux-roues,8500
+2001,Semi-remorques,Poids lourds,141
+2001,Tracteurs,Tracteurs,132
+2001,Voitures,Voitures et camionnettes,8469
+2002,Autocars et autobus,Bus et autocars,29
+2002,Camionnettes,Voitures et camionnettes,1671
+2002,Camions,Poids lourds,483
+2002,Deux-roues et assimilés,Deux-roues,8632
+2002,Semi-remorques,Poids lourds,122
+2002,Tracteurs,Tracteurs,116
+2002,Voitures,Voitures et camionnettes,9500
+2003,Autocars et autobus,Bus et autocars,21
+2003,Camionnettes,Voitures et camionnettes,1359
+2003,Camions,Poids lourds,884
+2003,Deux-roues et assimilés,Deux-roues,12130
+2003,Semi-remorques,Poids lourds,248
+2003,Tracteurs,Tracteurs,240
+2003,Voitures,Voitures et camionnettes,13991
+2004,Autocars et autobus,Bus et autocars,17
+2004,Camionnettes,Voitures et camionnettes,1681
+2004,Camions,Poids lourds,608
+2004,Deux-roues et assimilés,Deux-roues,33980
+2004,Semi-remorques,Poids lourds,229
+2004,Tracteurs,Tracteurs,249
+2004,Voitures,Voitures et camionnettes,11430
+2005,Autocars et autobus,Bus et autocars,18
+2005,Camionnettes,Voitures et camionnettes,955
+2005,Camions,Poids lourds,770
+2005,Deux-roues et assimilés,Deux-roues,27791
+2005,Semi-remorques,Poids lourds,248
+2005,Tracteurs,Tracteurs,324
+2005,Voitures,Voitures et camionnettes,11308
+2006,Autocars et autobus,Bus et autocars,28
+2006,Camionnettes,Voitures et camionnettes,1305
+2006,Camions,Poids lourds,681
+2006,Deux-roues et assimilés,Deux-roues,35760
+2006,Semi-remorques,Poids lourds,221
+2006,Tracteurs,Tracteurs,279
+2006,Voitures,Voitures et camionnettes,10961
+2007,Autocars et autobus,Bus et autocars,22
+2007,Camionnettes,Voitures et camionnettes,1267
+2007,Camions,Poids lourds,652
+2007,Deux-roues et assimilés,Deux-roues,34454
+2007,Semi-remorques,Poids lourds,192
+2007,Tracteurs,Tracteurs,213
+2007,Voitures,Voitures et camionnettes,10692
+2008,Autocars et autobus,Bus et autocars,18
+2008,Camionnettes,Voitures et camionnettes,1075
+2008,Camions,Poids lourds,824
+2008,Deux-roues et assimilés,Deux-roues,44409
+2008,Semi-remorques,Poids lourds,247
+2008,Tracteurs,Tracteurs,253
+2008,Voitures,Voitures et camionnettes,10989
+2009,Autocars et autobus,Bus et autocars,36
+2009,Camionnettes,Voitures et camionnettes,1403
+2009,Camions,Poids lourds,765
+2009,Deux-roues et assimilés,Deux-roues,36277
+2009,Semi-remorques,Poids lourds,304
+2009,Tracteurs,Tracteurs,376
+2009,Voitures,Voitures et camionnettes,5751
+2010,Autocars et autobus,Bus et autocars,96
+2010,Camionnettes,Voitures et camionnettes,1542
+2010,Camions,Poids lourds,1382
+2010,Deux-roues et assimilés,Deux-roues,38638
+2010,Semi-remorques,Poids lourds,741
+2010,Tracteurs,Tracteurs,750
+2010,Voitures,Voitures et camionnettes,6229
+2011,Autocars et autobus,Bus et autocars,97
+2011,Camionnettes,Voitures et camionnettes,2219
+2011,Camions,Poids lourds,1939
+2011,Deux-roues et assimilés,Deux-roues,42283
+2011,Semi-remorques,Poids lourds,978
+2011,Tracteurs,Tracteurs,751
+2011,Voitures,Voitures et camionnettes,7256
+2012,Autocars et autobus,Bus et autocars,102
+2012,Camionnettes,Voitures et camionnettes,1986
+2012,Camions,Poids lourds,2434
+2012,Deux-roues et assimilés,Deux-roues,43757
+2012,Semi-remorques,Poids lourds,894
+2012,Tracteurs,Tracteurs,1058
+2012,Voitures,Voitures et camionnettes,9056
+2013,Autocars et autobus,Bus et autocars,94
+2013,Camionnettes,Voitures et camionnettes,2311
+2013,Camions,Poids lourds,2286
+2013,Deux-roues et assimilés,Deux-roues,41830
+2013,Semi-remorques,Poids lourds,1032
+2013,Tracteurs,Tracteurs,1148
+2013,Voitures,Voitures et camionnettes,9402
+2014,Autocars et autobus,Bus et autocars,103
+2014,Camionnettes,Voitures et camionnettes,2533
+2014,Camions,Poids lourds,2506
+2014,Deux-roues et assimilés,Deux-roues,51134
+2014,Semi-remorques,Poids lourds,1130
+2014,Tracteurs,Tracteurs,1258
+2014,Voitures,Voitures et camionnettes,10304
+2015,Autocars et autobus,Bus et autocars,87
+2015,Camionnettes,Voitures et camionnettes,3229
+2015,Camions,Poids lourds,1120
+2015,Deux-roues et assimilés,Deux-roues,65599
+2015,Semi-remorques,Poids lourds,493
+2015,Tracteurs,Tracteurs,720
+2015,Voitures,Voitures et camionnettes,14500
+2016,Autocars et autobus,Bus et autocars,62
+2016,Camionnettes,Voitures et camionnettes,2923
+2016,Camions,Poids lourds,791
+2016,Deux-roues et assimilés,Deux-roues,45341
+2016,Semi-remorques,Poids lourds,394
+2016,Tracteurs,Tracteurs,530
+2016,Voitures,Voitures et camionnettes,14079
+2017,Autocars et autobus,Bus et autocars,73
+2017,Camionnettes,Voitures et camionnettes,3149
+2017,Camions,Poids lourds,883
+2017,Deux-roues et assimilés,Deux-roues,41187
+2017,Semi-remorques,Poids lourds,569
+2017,Tracteurs,Tracteurs,780
+2017,Voitures,Voitures et camionnettes,14328
+2018,Autocars et autobus,Bus et autocars,83
+2018,Camionnettes,Voitures et camionnettes,3224
+2018,Camions,Poids lourds,897
+2018,Deux-roues et assimilés,Deux-roues,43063
+2018,Semi-remorques,Poids lourds,631
+2018,Tracteurs,Tracteurs,841
+2018,Voitures,Voitures et camionnettes,15607
+2019,Autocars et autobus,Bus et autocars,133
+2019,Camionnettes,Voitures et camionnettes,3682
+2019,Camions,Poids lourds,960
+2019,Deux-roues et assimilés,Deux-roues,54873
+2019,Semi-remorques,Poids lourds,638
+2019,Tracteurs,Tracteurs,856
+2019,Voitures,Voitures et camionnettes,18072
+2020,Autocars et autobus,Bus et autocars,91
+2020,Camionnettes,Voitures et camionnettes,4085
+2020,Camions,Poids lourds,1407
+2020,Deux-roues et assimilés,Deux-roues,44850
+2020,Semi-remorques,Poids lourds,816
+2020,Tracteurs,Tracteurs,1105
+2020,Voitures,Voitures et camionnettes,16386
+2021,Autocars et autobus,Bus et autocars,101
+2021,Camionnettes,Voitures et camionnettes,4941
+2021,Camions,Poids lourds,1380
+2021,Deux-roues et assimilés,Deux-roues,65363
+2021,Semi-remorques,Poids lourds,764
+2021,Tracteurs,Tracteurs,1082
+2021,Voitures,Voitures et camionnettes,20313
+2022,Autocars et autobus,Bus et autocars,145
+2022,Camionnettes,Voitures et camionnettes,4626
+2022,Camions,Poids lourds,1241
+2022,Deux-roues et assimilés,Deux-roues,67639
+2022,Semi-remorques,Poids lourds,793
+2022,Tracteurs,Tracteurs,1195
+2022,Voitures,Voitures et camionnettes,18131

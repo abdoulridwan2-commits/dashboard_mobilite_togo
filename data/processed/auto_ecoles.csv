@@ -1,0 +1,273 @@
+﻿id_auto_ecole,region,prefecture,commune,canton,localite,nom,adresse,jours_ouverture,statut,longitude,latitude,nb_jours_ouverture,agreee
+1,Centrale,Tchaoudjo,Tchaoudjo 1,Sokodè (Komah),Didaure,Auto-école Nouvelle,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.1381004717211132,8.9831547852801,6,True
+2,Centrale,Blitta,Blitta 1,Pagala-Gare,Pagala Gare,Auto-école la Prudence Pagala Gare,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,0.9880383333333334,8.177550000000002,6,False
+3,Centrale,Blitta,Blitta 1,Blitta,Blitta Dépôt,Auto-école la Nouvelle Blitta,BP 09 Blitta,"mardi, mercredi, jeudi, vendredi, samedi, dimanche",Non agréée,0.9829727215157458,8.328168710609889,6,False
+4,Centrale,Sotouboua,Sotouboua 1,Sotouboua,Sotouboua (grand Marché),Auto-école Pugnus Dei Sotouboua,70158479/96857921,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Antenne agréée,0.9849933333333334,8.557409999999999,6,True
+5,Centrale,Sotouboua,Sotouboua 1,Sotouboua,Sotouboua (kpétéyo),Auto-école le leader Sotouboua,90788065,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,0.9874599999999999,8.557846666666666,6,False
+6,Centrale,Sotouboua,Sotouboua 1,Sotouboua,Sotouboua (lawaye),Auto-école les Intègres,22466479/91169631,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,0.9788183333333333,8.564878333333333,6,False
+7,Centrale,Sotouboua,Sotouboua 1,Sotouboua,Sotouboua (zongo),Auto-école la Référence Sotouboua,90770970,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Antenne agréée,0.9757658000000002,8.5606435,6,True
+8,Plateaux,Kpélé,Kpélé 1,Kpélé-Novivé,Adeta,Auto-école,,Nsp,Non agréée,0.7296441082691845,7.1305693779212325,1,False
+9,Centrale,Tchamba,Tchamba 1,Tchamba,Wassouwa,Auto-école la Nouvelle Wassouwa,90981828/98393151,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.4229366666666672,9.026503333333334,6,False
+10,Centrale,Tchamba,Tchamba 3,Kaboli,Djama,Auto-école la Nouvelle Djama,90981828/98393151,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.586553333333333,8.751013333333331,6,False
+11,Centrale,Tchaoudjo,Tchaoudjo 1,Sokodè (Komah),Akamade,Auto-école à Dieu la Gloire Akamadé,,"lundi, mardi, mercredi, jeudi, samedi",Antenne agréée,1.1166703303761731,8.989919613829478,5,True
+12,Maritime,Golfe,Golfe 3,Bè-Ouest,Lomegan,Auto-école l'Identite,,Nsp,Agréée,1.2054697306598223,6.18199980788579,1,True
+13,Centrale,Tchaoudjo,Tchaoudjo 1,Sokodè (Komah),Tchawanda,Auto-école Mawena,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.1330576606949863,8.987355843236807,6,False
+14,Centrale,Tchaoudjo,Tchaoudjo 1,Sokodè (Komah),Komah 2,Auto-école Sourou,,Nsp,Non agréée,1.1440829024927996,8.977114560798848,1,False
+15,Maritime,Golfe,Golfe 6,Baguida,Kpogan,Auto-école Luli,Agodeké,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.3694466666666671,6.1867,6,False
+16,Maritime,Golfe,Golfe 6,Baguida,Avepozo,Auto-école Tu es Mon Berger,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.349706666666667,6.1797683333333335,6,False
+17,Maritime,Golfe,Golfe 6,Baguida,Avekpozo,Auto-école Damaris Avépozo,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.3442716666666674,6.169588333333333,6,True
+18,Maritime,Golfe,Golfe 6,Baguida,Baguida,Auto-école Shalom Paix,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Agréée,1.307971666666667,6.158628333333334,5,True
+19,Maritime,Golfe,Golfe 6,Baguida,Avepozo Mawuvi,Auto-école  Shalom,Avepozo Mawuvi,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.3381516666666669,6.177006666666667,6,False
+20,Maritime,Golfe,Golfe 6,Baguida,Agodeke,Auto-école le Rocher,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.3668733333333336,6.1765516666666676,5,False
+21,Maritime,Golfe,Golfe 6,Baguida,Baguida,Auto-école Bon Berger,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.3267888098403935,6.171855029152451,6,False
+22,Maritime,Agoè-Nyivé,Agoè-Nyivé 4,Togblekope,Agoe Zongo,Auto-école le Savoir,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2101729000000003,6.270193599999999,6,True
+23,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Agoe Zongo,Auto-école Nzambe-Nzambe Agoè,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.2085116666666667,6.251951666666669,6,True
+24,Maritime,Agoè-Nyivé,Agoè-Nyivé 4,Togblekope,Zilidji,Auto-école la Vie,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1992118,6.2589273,6,False
+25,Maritime,Agoè-Nyivé,Agoè-Nyivé 4,Togblekope,Haoussa Zongo,Auto-école Alito École,,Nsp,Non agréée,1.2062733333333333,6.255273333333333,1,False
+26,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Demakpoe,Centre D'Instruction Routiere Togo,16 BP 582,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non renseigné,1.1943683333333324,6.243238333333332,6,False
+27,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Telessou,Auto-école la Sainte Etoile,,Nsp,Non agréée,1.182878333333334,6.218123333333334,1,False
+28,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Gbonve,Auto-école MKAF Togo,01 BP 1676,Nsp,Agréée,1.1875208076772852,6.21689412969734,1,True
+29,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Kleve,Auto-école du Golfe Klévé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.198125836166056,6.2220870576389915,6,True
+30,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Sorade,Auto-école Oumar,,Nsp,Non agréée,1.2114981964243627,6.232188129077177,1,False
+31,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Atchanve,Auto-école Korgo,,Nsp,Agréée,1.214936433860318,6.224957843022701,1,True
+32,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Anokoui,Auto-école le Courage,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1799283947236716,6.243413469411037,6,False
+33,Maritime,Agoè-Nyivé,Agoè-Nyivé 6,Adétikopé,Adeticope,Auto-école du Golfe Adétikopé,90036506/90159906,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.2183549999999999,6.325763333333334,6,True
+34,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Telessou,Auto-école les Elus de Dieu,Téléssou,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1750101774679038,6.225657994972941,6,False
+35,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Anome,Auto-école Sous les Ailes de Dieu Anomé,Anome,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.1847008123261473,6.215990873100693,6,True
+36,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Carrefour Bleu,Auto-école du Golfe Carefour bleu,Carrefour Bleu,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2052416666666668,6.225473333333334,6,True
+37,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Atchanve,Auto-école Sissonne,Atchanvé,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2111716666666668,6.229001666666666,6,False
+38,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Sorade,Auto-école Caba,Sorade,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2128364567012713,6.230940105142965,6,False
+39,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Adjougba,Auto-école defi Focus,Adjougba,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2220273444157101,6.226362919403873,6,False
+40,Maritime,Agoè-Nyivé,Agoè-Nyivé 6,Adétikopé,Adewi,Auto-école les Experts,Aucune,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2216147556130292,6.3152280934768354,6,False
+41,Maritime,Agoè-Nyivé,Agoè-Nyivé 5,Sanguera,Amarinta,Auto-école ma Reussite Annexe Amarinta,,Nsp,Non agréée,1.1403716666666663,6.2476216666666655,1,False
+42,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Cacaveli,Auto-école TNI (Togo Nouvelle Impression) Cacavéli,92648819/97702424,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.199216666666667,6.211294999999999,6,True
+43,Maritime,Golfe,Golfe 5,Aflao-Gakli,Avenou,Auto-école MHJH,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1913633333333327,6.172861666666667,6,False
+44,Maritime,Golfe,Golfe 5,Aflao-Gakli,Soviepe,Auto-école Baptrans,12 BP 278 Lome,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Agréée,1.1805528107437013,6.177851106070137,5,True
+45,Maritime,Agoè-Nyivé,Agoè-Nyivé 2,Légbassito,Legbasokpe,Auto-école du Golfe Legbasokpé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1634919181941068,6.260329073759687,6,True
+46,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Sogbossito,Auto-école Winner Sogbossito,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1663251666793775,6.2575615883776035,6,False
+47,Maritime,Agoè-Nyivé,Agoè-Nyivé 3,Vakpossito,Vakpossito Telessou,Auto-école St Kotey,90789684/98796009,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1702883333333327,6.217493333333334,6,False
+48,Maritime,Golfe,Golfe 5,Aflao-Gakli,Djidjolé,Auto-école J.le Rocher,BP S/c3408,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1917650000000002,6.189650000000001,6,True
+49,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Agbalédogan,Auto-école BAMB-SIS Agbalédogan,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1972710786259,6.2015930306613996,6,True
+50,Maritime,Golfe,Golfe 5,Aflao-Gakli,Agbalepedo,Auto-école  Saint Christophe Agbalépédo,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Agréée,1.1964545431925169,6.200091141807959,5,True
+51,Maritime,Golfe,Golfe 5,Aflao-Gakli,Djidjole,Auto-école le Gold,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.1968700000000008,6.182664999999998,5,False
+52,Maritime,Agoè-Nyivé,Agoè-Nyivé 3,Vakpossito,Agoe Telessou,Auto-école ma Reussite Téléssou,90974929/99510494,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.170595456631288,6.2144122192188425,6,False
+53,Maritime,Agoè-Nyivé,Agoè-Nyivé 4,Togblekope,Gnamassigan,Auto-école Gnamassigan,,Nsp,Non agréée,1.177750775808559,6.266452865653485,1,False
+54,Maritime,Agoè-Nyivé,Agoè-Nyivé 2,Légbassito,Legbassito,Auto-école la Gracieuse Légbassito,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.1497758856224451,6.266675862585643,6,True
+55,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Sogbossito,Auto-école le Genie Sogbossito,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1752599999999995,6.251276666666666,6,True
+56,Maritime,Agoè-Nyivé,Agoè-Nyivé 3,Vakpossito,Vakpossito,Auto-école Abraham Lincoln,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1745693225887075,6.214430782681505,6,True
+57,Maritime,Golfe,Golfe 3,Bè-Ouest,Doumassesse,Auto-école la Liberté Doumasséssé,"Doumassesse, Rue, Lomé ; BP S/c 15BP298","jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2154208808748534,6.163382809299719,6,True
+58,Maritime,Golfe,Golfe 3,Bè-Ouest,Lomegan,Auto-école Afrique C.A,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2057187052469736,6.184199894810828,6,False
+59,Maritime,Golfe,Golfe 3,Bè-Ouest,Tokoin Doumassesse,Auto-école le Retour,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.2162033333333337,6.157608333333332,5,False
+60,Maritime,Golfe,Golfe 3,Bè-Ouest,Agbalepedo,Auto-école CF le leader,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.2067283333333338,6.185483333333333,5,False
+61,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Sogbossito,Auto-école B Groupe,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.177406666666667,6.250873333333333,6,False
+62,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Demakpoe,Auto-école Adjrad_Togo,13 BP 544,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1982482311710527,6.24216359911231,6,False
+63,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Demakpoe,Auto-école TNI (Togo Nouvelle Impression) Démakpoè,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.2016347551628122,6.241847379845974,6,True
+64,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Assiyeye,Auto-école Winner Assiyéyé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1987866666666673,6.230588333333333,6,False
+65,Maritime,Golfe,Golfe 3,Bè-Ouest,Soted,Auto-école Basililela Soted,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.2206866666666671,6.152381666666667,6,True
+66,Maritime,Golfe,Golfe 3,Bè-Ouest,Doumassesse,Auto-école la Gracieuse Doumasséssé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.220859012567111,6.164817876690038,6,True
+67,Maritime,Golfe,Golfe 4,Amoutivé,Ramco,Auto-école Nzambe-Nzambe Ramco,Aucun,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.2201200000000005,6.143261666666664,6,True
+68,Maritime,Golfe,Golfe 3,Bè-Ouest,Forever,Auto-école Togo Express,,Nsp,Non agréée,1.2278808960433485,6.162413241361006,1,False
+69,Maritime,Golfe,Golfe 3,Bè-Ouest,Hedzranawoe,Auto-école Gratia,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2366550000000003,6.187848333333332,6,True
+70,Maritime,Golfe,Golfe 5,Aflao-Gakli,Avedji,Auto-école l'Eternel,90158330,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Agréée,1.179964355010482,6.201641865417299,5,True
+71,Maritime,Golfe,Golfe 5,Aflao-Gakli,Amadahome,Auto-école Sous les Ailes de Dieu Amadahomé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.1556788990828957,6.200394037600347,6,True
+72,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Woyome,Auto-école Dieudonne Wognomé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.1447733333333334,6.201136666666668,6,True
+73,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Segbe,Auto-école les Amis Ségbé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.1015266666666672,6.199731666666665,6,True
+74,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Segbe,Auto-école GPS Togo,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1031101312830456,6.199796319483418,6,False
+75,Maritime,Agoè-Nyivé,Agoè-Nyivé 3,Vakpossito,Vakpossito,Auto-école TNI (Togo Nouvelle Impression) Vakpossito,22567160/90203980/92526687,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.161558333333334,6.218114296993237,6,True
+76,Maritime,Agoè-Nyivé,Agoè-Nyivé 5,Sanguera,Logogome,Auto-école Sainte Famille Logogomé,90292127/93485258/91102621,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.1508166666666668,6.213768333333334,6,True
+77,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Nokopé,Auto-école le Bonheur,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1727650000000005,6.238208333333334,6,False
+78,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Agoe Assiyeye,Auto-école Mercy,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.191038333333333,6.2325,5,False
+79,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Wonyome,Auto-école la Joie Wognomé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1502500000000002,6.191404999999998,6,False
+80,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Wugomedekpo,Auto-école VCP,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1130311414048273,6.218912416896335,6,False
+81,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Apedokoe,Auto-école Marcoly,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1374942137275974,6.209690400732908,6,False
+82,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Logote,Auto-école Emmanuel Conduite,Carrefour Logote,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.126058333333333,6.193166666666667,6,False
+83,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Logote,Auto-école la Renaissance Logoté,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1316522605103156,6.193425399029946,6,True
+84,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Sagbado,Auto-école Forever,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1423415197699514,6.193226629802008,6,False
+85,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Wonyome,Auto-école Chara,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1444983333333334,6.1936149999999985,6,False
+86,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Wonyome,Auto-école Sainte Famille Wognomé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1584337877419204,6.189068834586941,6,True
+87,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Yokoe,Auto-école le Permis Yokoè,BP: 14267 Lomé Togo,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1430919671290058,6.176499461154605,6,False
+88,Maritime,Agoè-Nyivé,Agoè-Nyivé 3,Vakpossito,Dassakope,Auto-école Tam 228,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.159803333333333,6.209399999999999,6,False
+89,Maritime,Agoè-Nyivé,Agoè-Nyivé 5,Sanguera,Logogome,Auto-école Beraca Bered,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1521166666666678,6.217698333333333,6,False
+90,Maritime,Golfe,Golfe 5,Aflao-Gakli,Avedji Telessou,Auto-école KMK Téléssou,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1762416666666673,6.1957533333333314,6,False
+91,Maritime,Golfe,Golfe 5,Aflao-Gakli,Amadahome,Auto-école Citoyenne Inclusive,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1662933333333334,6.20357,6,False
+92,Maritime,Agoè-Nyivé,Agoè-Nyivé 3,Vakpossito,Vakpossito,Auto-école la Capitale,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1596534261198543,6.220302674772593,6,False
+93,Maritime,Agoè-Nyivé,Agoè-Nyivé 3,Vakpossito,Nanegbe,Auto-école Dieudonne Nanégbé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1570192320255284,6.229642333244105,6,True
+94,Maritime,Golfe,Golfe 5,Aflao-Gakli,Atigangome,Auto-école le Reveil,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.146595,6.2055533333333335,6,False
+95,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Sakpleto Kope,Auto-école Groupe Chez Toi,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1631633333333333,6.2437700000000005,6,False
+96,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Dalime,Auto-école la Nature,,Nsp,Non agréée,1.1626453146736735,6.236132855456439,1,False
+97,Maritime,Golfe,Golfe 3,Bè-Ouest,Doumassesse,Auto-école St Justin,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2170666666666674,6.155031666666667,6,False
+98,Maritime,Golfe,Golfe 3,Bè-Ouest,Forever,Auto-école L'Itineraire Forever,93494613,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2268650000000008,6.160558333333332,6,True
+99,Maritime,Golfe,Golfe 3,Bè-Ouest,Lome 2,Auto-école Dieu Seul Suffit,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2343572757854386,6.17814728040377,6,True
+100,Maritime,Golfe,Golfe 5,Aflao-Gakli,Agbalepedogan,Auto-école à Dieu la Gloire Agbalépédogan,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.199397840217735,6.1973694520591405,6,True
+101,Maritime,Golfe,Golfe 5,Aflao-Gakli,N/a,Auto-école Gloire à Dieu Aflao-Gakli,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Antenne agréée,1.1889133333333333,6.17233,5,True
+102,Maritime,Golfe,Golfe 5,Aflao-Gakli,N/a,Auto-école Saint Elie Annexe,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.1992415792649476,6.170103008168669,6,True
+103,Maritime,Golfe,Golfe 5,Aflao-Gakli,Totsi,Auto-école le leader Totsi,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.1884950000000003,6.197031666666668,5,False
+104,Maritime,Agoè-Nyivé,Agoè-Nyivé 6,Adétikopé,Akplome,Auto-école Dieu Grace,19BP40,"jeudi,  lundi,  mardi,  mercredi",Non agréée,1.229066666666667,6.3212866666666665,4,False
+105,Maritime,Agoè-Nyivé,Agoè-Nyivé 6,Adétikopé,Tsive,Auto-école  Saint Christophe Annexe Tsivé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.2149700000000008,6.3178849999999995,6,True
+106,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Yokoe,Auto-école Dakopas,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1533070021818277,6.180571356135353,6,False
+107,Maritime,Golfe,Golfe 5,Aflao-Gakli,Agbalepedogan,Auto-école CFC Sarl,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.201546731895331,6.179983556574924,6,False
+108,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Yokoe,Auto-école Jesus T'aime,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.146415,6.178336666666667,6,False
+109,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Awatame,Auto-école la Joie Awatamé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1624308854453222,6.180061693446676,6,False
+110,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Yokoe,Auto-école Bon Conducteur,A Côté De L'école Primaire Yokoe Copegan,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1384963168719777,6.17741434898323,6,False
+111,Maritime,Agoè-Nyivé,Agoè-Nyivé 5,Sanguera,Klikame,Auto-école Basileia Klikamé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.1145445758428403,6.250722010179545,6,True
+112,Maritime,Agoè-Nyivé,Agoè-Nyivé 5,Sanguera,Dekpo,Auto-école Mega Succès,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.117213163454005,6.227652510561415,6,False
+113,Maritime,Agoè-Nyivé,Agoè-Nyivé 5,Sanguera,Zopomahe,Auto-école le Génie Zopomahé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.1474848457778564,6.23363345884964,6,True
+114,Maritime,Golfe,Golfe 5,Aflao-Gakli,Djidjole,Auto-école des Grape,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1874166666666666,6.183361666666668,6,False
+115,Maritime,Golfe,Golfe 5,Aflao-Gakli,Agbalepedo,Auto-école la Dignite Sûr,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.202668333333334,6.194548333333333,6,False
+116,Maritime,Golfe,Golfe 5,Aflao-Gakli,Adidogome,Auto-école Adonaï Adidogomé,,"jeudi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.1787966666666672,6.176594999999998,5,True
+117,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Agbalepedogan,Auto-école L2CI,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.2001500918119163,6.1990899084027244,5,False
+118,Maritime,Golfe,Golfe 3,Bè-Ouest,Casablanca,Auto-école Damaris Casablanca,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2020446,6.1486219,6,True
+119,Maritime,Golfe,Golfe 5,Aflao-Gakli,Djidjole,Auto-école Feu Vert,BP 333,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1967500000000006,6.177315000000002,6,True
+120,Maritime,Golfe,Golfe 5,Aflao-Gakli,Lomégan,Auto-école Amenouvévé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2042450000000002,6.186493333333333,6,False
+121,Maritime,Golfe,Golfe 5,Aflao-Gakli,Djidjole,Auto-école la Renaissance Djidjolé,,Nsp,Agréée,1.1882133333333338,6.181489999999999,1,True
+122,Maritime,Golfe,Golfe 5,Aflao-Gakli,Djidjole,Auto-école la Vision,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.2021816666666663,6.178543333333332,5,False
+123,Maritime,Golfe,Golfe 3,Bè-Ouest,Djidjole,Auto-école la Sympatique,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.2044316666666668,6.176146666666667,5,False
+124,Maritime,Golfe,Golfe 5,Aflao-Gakli,Totsi,Auto Ecole / Garage la Patience,,"jeudi,  lundi,  mardi,  samedi,  vendredi",Non agréée,1.1841583333333332,6.198431666666666,5,False
+125,Maritime,Golfe,Golfe 5,Aflao-Gakli,Totsi Gblinkome,Auto-école St Antoine Junior,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1813957858779862,6.191757771230936,6,False
+126,Maritime,Golfe,Golfe 3,Bè-Ouest,Djidjole,Auto-école les Prodiges,BP 1853 Lome-Togo,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Agréée,1.2024873838674335,6.173072176668036,5,True
+127,Maritime,Golfe,Golfe 3,Bè-Ouest,Lomegan,Auto-école le Gar,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2058822511445,6.180312585039518,6,False
+128,Maritime,Golfe,Golfe 5,Aflao-Gakli,Totsi,Auto-école ICAE-Vie,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1838816666666665,6.197978333333333,6,False
+129,Maritime,Golfe,Golfe 5,Aflao-Gakli,Gblenkome,Auto-école Djifa,,"jeudi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.185565985539394,6.189940384627703,5,False
+130,Maritime,Golfe,Golfe 5,Aflao-Gakli,Avedji,Auto-école le Creneau,BP 8798,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.1751366666666674,6.190169999999999,5,False
+131,Maritime,Golfe,Golfe 5,Aflao-Gakli,Sagbado,Auto-école Rabbouni,BP 14008,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1500399999999995,6.199046666666666,6,False
+132,Maritime,Golfe,Golfe 5,Aflao-Gakli,Avedji,Auto-école CFCP,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1713509698210836,6.200422422515475,6,False
+133,Maritime,Golfe,Golfe 5,Aflao-Gakli,Amadahome,Auto-Ecole CV-AV,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.1533746648672873,6.199544222765724,5,False
+134,Maritime,Golfe,Golfe 5,Aflao-Gakli,Adidogome Franciscain,Auto-école la Prudence Adidogomé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1791084573644872,6.185009058894415,6,False
+135,Maritime,Golfe,Golfe 5,Aflao-Gakli,Adidogome,Auto-école les Amis Adidogomé,04 Lome 762,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.1681049999999993,6.181533333333335,6,True
+136,Maritime,Golfe,Golfe 5,Aflao-Gakli,Adidogome,Auto-école Ava-Togo Adidogomé,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Agréée,1.1508349999999994,6.203371666666668,5,True
+137,Maritime,Golfe,Golfe 5,Aflao-Gakli,Amadahome,Auto-école le Jalon,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1588466666666668,6.1987016666666666,6,True
+138,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Adidoadin,Auto-école Merveilles de Paris,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1866331516324233,6.20740489002387,6,False
+139,Maritime,Golfe,Golfe 3,Bè-Ouest,Agbalepedogan,Auto-école Adonaï Agbalépédogan,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2075833910232152,6.188512960678962,6,True
+140,Maritime,Golfe,Golfe 5,Aflao-Gakli,Agbalepedogan,Auto-école Dieu Merci Agbalépédogan,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.1925266666666667,6.196786666666665,5,False
+141,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Adidoadin,Auto-école la Colombe de Dieu Annexe,,"jeudi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.187888333333334,6.206473333333335,5,False
+142,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Agbalepedo Dabla Kope,Auto-école BM FEOP,,Nsp,Non agréée,1.2053166666666668,6.19956,1,False
+143,Maritime,Golfe,Golfe 1,Bè-Est,Be,Auto-école ONG Domino,90053418,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Agréée,1.2453460894532717,6.1448207409752955,5,True
+144,Maritime,Golfe,Golfe 1,Bè-Est,Be Houveme,Auto-école la Référence Houvémé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2492262048428784,6.147984792036858,6,True
+145,Maritime,Golfe,Golfe 1,Bè-Est,Be Souza Kotokoukodzi,Auto-école Saint Antoine de Padoue,91344868,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2543852322066162,6.136101278951408,6,True
+146,Maritime,Golfe,Golfe 4,Amoutivé,Be Bassadji,Auto-école Emmanuel Jules,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.235801714109525,6.1435482418317715,6,True
+147,Maritime,Golfe,Golfe 7,Aflao-Sagbado,Akato Deme,Auto-école la Liberté Akato,Non Loin du Carrefour Akato Deme,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.0989683333333333,6.2033933333333335,6,True
+148,Maritime,Golfe,Golfe 3,Bè-Ouest,Gbossime,Auto-école Basileia Gbossimé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.2047633333333334,6.159006666666667,6,True
+149,Maritime,Golfe,Golfe 1,Bè-Est,Be Hedze,Auto-école Saint Kizito Bè Hédzé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.2439466666666663,6.147713333333332,6,True
+150,Maritime,Golfe,Golfe 1,Bè-Est,Ablogame,Auto-école THV,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2558936734708845,6.13647974897605,6,False
+151,Maritime,Golfe,Golfe 1,Bè-Est,Gbenyedji,Auto-école Diipesha,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2554529188558758,6.14785473696195,6,False
+152,Maritime,Golfe,Golfe 1,Bè-Est,Be Kpota,Auto-école Rapha Bè Kpota,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2467189225578386,6.152805466266955,6,True
+153,Maritime,Golfe,Golfe 1,Bè-Est,Ablogame,Auto-école du Mono,91991803,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2615141120257083,6.136625342074,6,False
+154,Maritime,Golfe,Golfe 1,Bè-Est,Be Kpota,Auto-école Pas de Temps,90243911,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2449009123698282,6.15238311686108,6,True
+155,Maritime,Golfe,Golfe 1,Bè-Est,Souza Netime,Auto-école le Genie Souza Nètimé,13BP: 538 Lomé-togo,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.2358171560192586,6.137109839428764,6,True
+156,Maritime,Golfe,Golfe 1,Bè-Est,Be-kpota,Auto-école la Lumiere,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.2660399999999998,6.157544999999999,5,False
+157,Maritime,Golfe,Golfe 1,Bè-Est,Souzanetime,Auto-école Richmond,98736078,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.2432383333333334,6.137831666666666,5,False
+158,Maritime,Golfe,Golfe 1,Bè-Est,Akodessewa,Auto-école Moderne,01BP1383,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2649747812850825,6.153873266610683,6,False
+159,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Sogbossito,Auto-école St GK,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1716183333333337,6.252565000000001,6,False
+160,Maritime,Golfe,Golfe 1,Bè-Est,Hadi Kpota,Auto-école le Requin,93207625,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.2666438518113032,6.16374566326345,5,False
+161,Maritime,Golfe,Golfe 1,Bè-Est,N/a,Auto-école à Dieu la Gloire Bè,92055124,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Antenne agréée,1.2753943770261118,6.175815977433112,6,True
+162,Maritime,Golfe,Golfe 1,Bè-Est,Be Kpota,Auto-école Ecole JADS,92530809,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.262223218405205,6.160959381838679,5,False
+163,Maritime,Golfe,Golfe 1,Bè-Est,Atiegou,Auto-école le Professeur,90134934/99953737,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.2676333371633681,6.1781458791487625,6,True
+164,Maritime,Golfe,Golfe 2,Bè-Centre,Be Kpota,Auto-école J.charmer,98447616/91694261,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.2413744305875263,6.151178717573525,5,False
+165,Maritime,Golfe,Golfe 1,Bè-Est,Atiegou Kolas,Auto-école Emaris,91823279,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2755823000651545,6.1785082320962,6,False
+166,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Logope,Auto-école le Genie Logopé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1866553046907016,6.233949060373368,6,True
+167,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Logope,Auto-école Awara,Kossigan,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Agréée,1.1851066666666674,6.234589999999998,6,True
+168,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Logope,Auto-école KMK Sarl Annexe,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.182116666666667,6.230106666666667,6,False
+169,Maritime,Golfe,Golfe 1,Bè-Est,Afame,Auto-école le Genie Afamé,BP 4234,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Antenne agréée,1.2791200000000011,6.168874999999999,5,True
+170,Maritime,Golfe,Golfe 1,Bè-Est,Adakpame,Auto-école Dieu Merci,92806935,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.2918499255797147,6.169704966522096,5,False
+171,Maritime,Golfe,Golfe 1,Bè-Est,Zoro Bar,Auto-école Saint Kizito Zoro Bar,90997375,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Antenne agréée,1.2831279110434608,6.167025768668737,5,True
+172,Maritime,Golfe,Golfe 1,Bè-Est,Kagome,Auto-école Saint Kizito Kagomé,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Antenne agréée,1.2983703200552288,6.167819153285302,5,True
+173,Maritime,Golfe,Golfe 1,Bè-Est,Sabeto,Auto-école la Puissance Divine Sabeto,98949126,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2820816666666672,6.174011666666666,6,False
+174,Maritime,Golfe,Golfe 1,Bè-Est,Adakpame,Auto-école la Puissance Divine Adakpamé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2896603201688392,6.171071095937135,6,False
+175,Maritime,Golfe,Golfe 1,Bè-Est,Kelegougan,Auto-école l'étoile,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2405699999999997,6.216573333333334,6,False
+176,Maritime,Golfe,Golfe 1,Bè-Est,Adakpame,Auto-école Dieu Merci Adakpamé,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2891266666666668,6.167624999999998,6,False
+177,Maritime,Golfe,Golfe 2,Bè-Centre,Nukafu,Auto-école St Paul,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2417716666666665,6.158188333333334,6,False
+178,Maritime,Golfe,Golfe 2,Bè-Centre,Togo 2000,Auto-école Malembe Malembe,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.254828412999465,6.188855334180798,5,False
+179,Maritime,Golfe,Golfe 2,Bè-Centre,Wuiti-nukafu,Auto-école Rapha Wuiti-Nukafu,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Antenne agréée,1.2399206163414642,6.163057762691574,5,True
+180,Maritime,Golfe,Golfe 4,Amoutivé,Anoukopé,Auto-école la Perseverance,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.2197308877142081,6.137236990088388,5,False
+181,Maritime,Golfe,Golfe 3,Bè-Ouest,Be-clime,Auto-école CFC-PRO SARL,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.208839037322003,6.179498213804031,6,False
+182,Maritime,Golfe,Golfe 4,Amoutivé,Tekoin Séminaire,Auto-école Petit Jesus,,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.2112786628034622,6.148260670274587,6,False
+183,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Carrefour Commando,Auto-école Amen,90189654,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1888566666666671,6.241486666666665,6,False
+184,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Koshigan2,Auto-école le Citoyen,Agoè Koshigan 2,"jeudi,  lundi,  mardi,  mercredi,  samedi,  vendredi",Non agréée,1.1666043026445259,6.2435083548325325,6,False
+185,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Agoe Assiyeye,Auto-école les Benis,,Nsp,Non agréée,1.20052523971031,6.235151174169916,1,False
+186,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Agoe Minamadou,Auto-école le Reccord,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Non agréée,1.1932399999999992,6.224793333333335,5,False
+187,Maritime,Golfe,Golfe 1,Bè-Est,Dekon,Auto-école Nzambe-Nzambe Dekon,92861212,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Antenne agréée,1.2341946993006796,6.134486700471797,6,True
+188,Maritime,Golfe,Golfe 2,Bè-Centre,Kégué,Auto-école Nzambe-Nzambe Kegue,Sise en face du stade de kegue,"lundi, mardi, mercredi, vendredi, samedi",Agréée,1.2411228581563578,6.201321012932121,5,True
+189,Maritime,Golfe,Golfe 2,Bè-Centre,Hedzranawoe,Auto-école Nzambe-Nzambe Hedzranawoe,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Antenne agréée,1.2442916666666668,6.170398333333332,6,True
+190,Maritime,Golfe,Golfe 4,Amoutivé,Amoutiévé,Auto-école l'internationale Pilote,BP 4225,"lundi, mardi, mercredi, jeudi, vendredi",Non agréée,1.22888,6.138706666666665,5,False
+191,Maritime,Golfe,Golfe 3,Bè-Ouest,Above,Auto-école Basileia  Abové,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2047504038396144,6.165303403778479,6,True
+192,Maritime,Golfe,Golfe 4,Amoutivé,Nyekonakpoe,Auto-école la Maitrise,01BP 5040,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2043283333333341,6.126713333333333,6,True
+193,Maritime,Golfe,Golfe 3,Bè-Ouest,Kassamblaca,Auto-école le Gouverneur,BP 2803,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2068400000000001,6.152945,6,True
+194,Maritime,Golfe,Golfe 2,Bè-Centre,Nukafu,Auto-école Deo Compassion,92233574,"lundi, mardi, mercredi, jeudi, vendredi",Agréée,1.238105,6.159020000000001,5,True
+195,Maritime,Golfe,Golfe 2,Bè-Centre,Tinga,Auto-école Nzambe Nzambe Tinga,,"lundi, mardi, jeudi, mercredi, samedi",Antenne agréée,1.2481522262201863,6.201197072965417,5,True
+196,Maritime,Golfe,Golfe 3,Bè-Ouest,Tokoin Séminaire,Auto-école OCDI,07BP448,"lundi, mardi, mercredi, jeudi, vendredi",Agréée,1.2097865522019817,6.1490815635885605,5,True
+197,Maritime,Golfe,Golfe 4,Amoutivé,Nyekonakpoe,Auto-école FCAM,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2027983333333332,6.1263733333333334,6,True
+198,Maritime,Golfe,Golfe 4,Amoutivé,Nyekonakpoe,Auto-école la Patience,,"lundi, mercredi, mardi, jeudi, vendredi",Non agréée,1.2136883333333335,6.131481666666667,5,False
+199,Maritime,Golfe,Golfe 2,Bè-Centre,Nukafu,Auto-école AE,,"lundi, mardi, mercredi, jeudi, vendredi",Non agréée,1.2336333714600851,6.158349656503773,5,False
+200,Maritime,Golfe,Golfe 2,Bè-Centre,Hedzranawoe,Auto-école Guilgal,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2418071590434765,6.185811851383592,6,True
+201,Maritime,Golfe,Golfe 4,Amoutivé,Gbadago,Auto-école Grace Of God,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2146854314992657,6.148453335079997,6,True
+202,Maritime,Agoè-Nyivé,Agoè-Nyivé 5,Sanguera,Sanguera,Auto-école Freeway,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.12098,6.230416116312027,6,True
+203,Maritime,Agoè-Nyivé,Agoè-Nyivé 5,Sanguera,Dekpo,Auto-école Mega Succes,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.1171966666666666,6.227661666666668,6,False
+204,Maritime,Agoè-Nyivé,Agoè-Nyivé 2,Légbassito,Logope,Auto-école la Classe,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.1588376871019987,6.249764266525649,6,False
+205,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Sogbassito,Auto-école Gloire à Dieu Légbassito,,"lundi, mardi, mercredi, jeudi, vendredi",Antenne agréée,1.1731267383815116,6.247622705924113,5,True
+206,Maritime,Agoè-Nyivé,Agoè-Nyivé 2,Légbassito,Logopé,Auto-école St Francois,98048999,"lundi, mardi, mercredi, vendredi, samedi",Non agréée,1.1576513448196448,6.255821814843985,5,False
+207,Kara,Kozah,Kozah 1,Commune De Kara,Fehing,Auto-école le Defi Septemtrion,,"lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche",Agréée,1.217915000000001,9.562229999999998,7,True
+208,Kara,Kozah,Kozah 1,Commune De Kara,Ewaou,Auto-école Securite Pour Tous,BP 679,"lundi, mardi, mercredi, jeudi, vendredi",Agréée,1.197487640222207,9.54737364568313,5,True
+209,Kara,Assoli,Assoli 1,Bafilo,Kparantaou,Auto-école Bon Courage Kparatao,,"lundi, mardi, mercredi, jeudi, vendredi",Antenne agréée,1.2464165384878731,9.362072719279846,5,True
+210,Kara,Kozah,Kozah 1,Commune De Kara,Andjaoude,Auto-école la Connaissance,,Nsp,Non agréée,1.2079083333333336,9.559028333333336,1,False
+211,Kara,Kozah,Kozah 1,Commune De Kara,Zongo,Auto-école Agbeteo,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.1858649999999993,9.545140000000002,6,False
+212,Kara,Kozah,Kozah 1,Commune De Kara,Tomde,Auto-école la Bienvenue,,"lundi, mercredi, jeudi, vendredi, dimanche, samedi, mardi",Non agréée,1.2051278936355518,9.556609215759348,7,False
+213,Kara,Kozah,Kozah 1,Commune De Kara,Welade,Auto-école Pugnus Dei Welade,,"samedi, vendredi, jeudi, mercredi, mardi, lundi",Agréée,1.1934021863481121,9.557288518275392,6,True
+214,Kara,Kozah,Kozah 1,Commune De Kara,Patassoukome,Auto-école les Grands Patassoukomé,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Antenne agréée,1.1883199999999998,9.547373333333335,6,True
+215,Kara,Kozah,Kozah 1,Commune De Kara,Ewaou,Auto-école Bon Courage Awaou,BP 292,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.1973950000000002,9.545631666666665,6,True
+216,Kara,Kozah,Kozah 1,Commune De Kara,Tomde,Auto-école le Sauveur Vient,BP 147,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2026316666666665,9.551556666666666,6,True
+217,Kara,Kozah,Kozah 1,Commune De Kara,Tchalode,Auto-école de la Kozah,,"dimanche, samedi, vendredi, jeudi, mercredi, mardi, lundi",Non agréée,1.19315,9.568231666666666,7,False
+218,Kara,Kozah,Kozah 1,Commune De Kara,Ewoou,Auto-école Sajer,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.1914700000000003,9.548641666666667,6,False
+219,Kara,Bassar,Bassar 1,Bassar,Nangbani,Auto-école la Satisfaction,,"lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche",Non agréée,0.7856883333333328,9.272320000000002,7,False
+220,Kara,Bassar,Bassar 1,Bassar,Biakpabe,Auto-école les Intégrés,,"samedi, vendredi, jeudi, mercredi, mardi, lundi",Non agréée,0.7799816666666667,9.273484999999996,6,False
+221,Maritime,Lacs,Lacs 3,Gbodjomé,Agbodan,Auto-école Saint Jules Agbodan,99915996,"samedi, vendredi, jeudi, mercredi, mardi, lundi",Antenne agréée,1.4165491173625513,6.206722459544289,6,True
+222,Maritime,Lacs,Lacs 3,Gbodjomé,Agbavi,Auto-école Damaris Agbavi,90047716,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Antenne agréée,1.3947366666666672,6.189736666666666,6,True
+223,Maritime,Lacs,Lacs 4,Anfoin,Afoin Kpota,Auto-école le Berger,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.6101466666666668,6.327245,6,False
+224,Maritime,Zio,Zio 1,Tsévié,Agbalipe,Auto-école Merciful God,BP 78 Tsévié,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.212641027950797,6.4318829525443215,6,True
+225,Maritime,Lacs,Lacs 2,Aklakou,Aklakou Noblokome,Le Renouveau Centre de Formation Et d Éducation Routiere Aklakou,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non renseigné,1.7121201915079372,6.338482624851224,6,False
+226,Maritime,Vo,Vo 1,Vogan,Yesuvito,Auto-école Domino,99463827/91825854/98564654,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.529565847662365,6.333567118068137,6,True
+227,Maritime,Bas-Mono,Bas-Mono 1,Afagnangan,Agbleta,Auto-école Musai Togo,98254049 / 99044122,"lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche",Non agréée,1.6252950000000002,6.493359999999999,7,False
+228,Maritime,Vo,Vo 1,Vogan,Agbemavo,Auto-école Saint Kizito Agbemavo,98840953 Vogan,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Antenne agréée,1.5232577074397766,6.340452162204777,6,True
+229,Maritime,Lacs,Lacs 1,Canton D’Aneho,Amadoto,Auto-école Levireste,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.6138872290738617,6.23845617168974,6,False
+230,Maritime,Yoto,Yoto 1,Tabligbo,Cite A,Auto-école Amea,Cite A -togo,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.4962366666666669,6.595243333333333,6,False
+231,Maritime,Vo,Vo 1,Vogan,Lom Nava,Auto-école  Nazareth,22485190/99553240/93737888,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.5365049999999998,6.332456666666667,6,False
+232,Plateaux,Wawa,Wawa 1,Badou,Badou Ville,Auto-école Radji Badou,90136290,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Antenne agréée,0.6071514324499167,7.585032065377712,6,True
+233,Plateaux,Wawa,Wawa 1,Badou,Badou Ville,Auto-école le Succès Badou,90683042,"samedi, vendredi, jeudi, mercredi, mardi, lundi",Antenne agréée,0.6061234607489381,7.586761986776104,6,True
+234,Plateaux,Ogou,Ogou 1,Djama,Agbonou Gare,Auto-école Radji Agbonou Gare,BP: 437,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.1555658408637117,7.514350263949505,6,True
+235,Plateaux,Amou,Amou 2,Amou-Oblo,Amou Oblo,Auto-école El Dorado,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,0.8667490235678944,7.386249664445304,6,False
+236,Plateaux,Anié,Anié 1,Anié,Anie,Auto-école Alhamoudou,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.1934433333333334,7.776311666666667,6,True
+237,Plateaux,Agou,Agou 1,Agou-Tavié,Gadjepe,Auto-école le Permis Gadjépé,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,0.7178183333333347,6.846978333333333,6,False
+238,Plateaux,Kloto,Kloto 1,Agome-Kpalime,Totsoanyi,Auto-école Dieu Seul T'aime,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,0.6312916958990441,6.9087690649124065,6,True
+239,Plateaux,Kloto,Kloto 1,Agome-Kpalime,Noumetukondzi,Auto-école Ouro,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,0.6355235702839034,6.9079452875345195,6,True
+240,Plateaux,Kpélé,Kpélé 1,Kpélé-Novivé,Adeta,Auto-école Radji Adéta,Adeta,"samedi, vendredi, jeudi, mercredi, mardi",Antenne agréée,0.7317775012483716,7.121065097049891,5,True
+241,Plateaux,Kloto,Kloto 1,Agome-Kpalime,Kpalime,Auto-école Gloire à Dieu Kpalimé,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,0.6350270646918732,6.899704692673049,6,True
+242,Savanes,Cinkassé,Cinkassé 1,Cinkassé,Lantaba,Auto-école Prospera,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,0.0080033333333343,11.099995000000002,6,False
+243,Savanes,Tône,Tône 1,Dapaong,Tantigou,Auto-école Yendam,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,0.1955800000000011,10.86337,6,False
+244,Savanes,Tône,Tône 1,Dapaong,Timgbal,Auto-école Ak Prosper Tin-Salingue Timgdal,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Antenne agréée,0.2034469523461212,10.87591216056162,6,True
+245,Savanes,Tône,Tône 1,Dapaong,Boumonga-ba,Auto-école le Défi,92101984,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,0.2114283333333338,10.856644999999999,6,False
+246,Savanes,Tône,Tône 1,Dapaong,Orkoiré,Auto-école Prosper AK,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,0.2104450000000004,10.85675,6,True
+247,Savanes,Tône,Tône 1,Dapaong,Kombonloaga,Auto-école les Grands Kombonloaga,,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,0.1995183333333333,10.869764999999997,6,True
+248,Savanes,Oti,Oti 1,Mango,Sangbana,Auto-école Prosperak Annex Mango,90857026,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,0.4757084420586872,10.353916434151662,6,False
+249,Savanes,Oti,Oti 1,Mango,Gono,Auto-école Sawari,A Côté de L'église Catholique Mango,"lundi, mardi, mercredi, jeudi, vendredi",Non agréée,0.4747766666666678,10.354496666666666,5,False
+250,Savanes,Oti,Oti 2,Barkoissi,Chef Canton,Auto-école la delivrance,93237514,"vendredi, jeudi, mercredi, mardi, lundi",Non agréée,0.3030199436234801,10.553197156780227,5,False
+251,Savanes,Cinkassé,Cinkassé 1,Cinkassé,Cinkanssé Langtaba ,Auto-école AK Prospere Tin-Salingue Cinkanssé,90 57 37 37,"lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche",Agréée,0.0080716666666677,11.099934999999999,7,True
+252,Maritime,Golfe,Golfe 2,Bè-Centre,Hedzranawoe,Auto-école Audacieux,Néant,"samedi, vendredi, jeudi, mercredi, mardi, lundi",Agréée,1.2445279304028796,6.191422924963468,6,True
+253,Maritime,Golfe,Golfe 5,Aflao-Gakli,Amadahome,Auto-école Ava Togo Amadahomé,Néant,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Non agréée,1.1508523991894193,6.20347046286229,6,False
+254,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Agoè Fiovi,Auto-école Blessing,08Bp 81065,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.1912042550545003,6.239286006144919,6,True
+255,Maritime,Golfe,Golfe 2,Bè-Centre,Attiegou,Auto-école ESCA (Ecole Supérieure de Conduite Automobile),BP 60257 lomé Togo,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2629522056674702,6.196486184784989,6,True
+256,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Cacaveli,Auto-école Essofa,Néant,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.1978463240060298,6.209808656520399,6,True
+257,Maritime,Golfe,Golfe 3,Bè-Ouest,Tokoin Wuiti,Auto-école Forrever conduite,Néant,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2301080993372802,6.16743063612345,6,True
+258,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Demakpoe,Auto-école la Fierté,"Sise à agoe Demakpoe sur la voie d'assiyeye échangeur peu avant les rails côté ouest, Lome","lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2023910339040302,6.2375439855132795,6,True
+259,Plateaux,Ogou,Ogou 1,Gnagna,Atakpame,Auto-école le Succès Atakpamé,70246230,"lundi, mardi, mercredi, jeudi, vendredi",Agréée,1.15530114700029,7.498069437651582,5,True
+260,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Houmbi,Auto-école le Paraclet Houmbi,Sise à agir koffi Manou en face du bar palais russ,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.22775833333333,6.21967,6,True
+261,Maritime,Golfe,Golfe 3,Bè-Ouest,Tokoin Wuti ,Auto-école le Salut,Sise en face du lycée de tokoin entre l'hôte eda oba et la dpj lome,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2311366666666703,6.15257166666667,6,True
+262,Maritime,Golfe,Golfe 3,Bè-Ouest,Forrever,Auto-école L'Itineraire Annexe Forever,"Sise tokoin forrever, derrière le siège du plan togo","lundi, mardi, jeudi, mercredi, vendredi, samedi",Antenne agréée,1.2286209403630899,6.160478995655309,6,True
+263,Maritime,Golfe,Golfe 1,Bè-Est,Bè Château,Auto-école Pasteur,"Rue de l'Entente, ex rue de l'Ocam face hôtel de la Paix, Bè château","lundi, mardi, mercredi, jeudi, vendredi",Agréée,1.2469795988164898,6.133015955516349,5,True
+264,Maritime,Golfe,Golfe 5,Aflao-Gakli,Avedji Wessome,Auto-école Romana's,"Non loin des rails face pharmacie Victoir, st AVEDJI wessome","lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.1711899759907505,6.192601577802109,6,True
+265,Maritime,Golfe,Golfe 5,Aflao-Gakli,Adidoadin,Auto-école Saint Elie,"Sise à adidoadin, non loin du carrefour bodjona,en face de la direction sanol","lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.1891524000000002,6.205183299999999,6,True
+266,Maritime,Golfe,Golfe 4,Amoutivé,Quartier Des Étoiles,Auto-école Saint Imamiah quartier des Etoiles,68 rue 52 Ayatome 90710127,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.2208404398979298,6.132244552930801,6,True
+267,Maritime,Golfe,Golfe 6,Baguida,Avepozo,Auto-école Saint Jules Avépozo,Avepozo,"lundi, mardi, mercredi, jeudi, vendredi, samedi",Agréée,1.3417266666666705,6.168526666666669,6,True
+268,Maritime,Golfe,Golfe 1,Bè-Est,Adakpamé,Auto-école Saint Kizito Adakpamé,Néant,"samedi, vendredi, jeudi, mercredi, mardi, lundi",Agréée,1.2679143702368199,6.163539702174259,6,True
+269,Maritime,Agoè-Nyivé,Agoè-Nyivé 1,Agoè-Nyivé,Avédji,Auto-école Saint Max,Néant,"samedi, vendredi, jeudi, mercredi, mardi, lundi",Agréée,1.1815012195208312,6.207599322777879,6,True
+270,Maritime,Golfe,Golfe 5,Aflao-Gakli,Adidoadin,Auto-école Sous les Ailles de Dieu Adidoadin,Néant,"samedi, vendredi, jeudi, mercredi, mardi, lundi",Agréée,1.1874419400658807,6.20284658592343,6,True
+271,Maritime,Golfe,Golfe 5,Aflao-Gakli,Adidogomé,Auto-école Zebra Adidogomé,Néant,"samedi, vendredi, jeudi, mercredi, mardi, lundi",Agréée,1.15917832110672,6.191333287455262,6,True
+272,Maritime,Golfe,Golfe 4,Amoutivé,Nyékonakpoè,Auto-école Lobokona Nzambe,,"jeudi,  lundi,  mardi,  mercredi,  vendredi",Agréée,1.2056839780600226,6.129949759549678,5,True
