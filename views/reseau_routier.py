@@ -9,7 +9,7 @@ def show_reseau_routier():
     data = get_data()
     regions = data["regions"]
 
-    render_header("ADMINISTRATION TERRITORIALE ET MOBILITE | DEFI 1")
+    render_header()
     section_title("État du réseau par région")
 
     stacked = regions[["region", "part_bon_pct", "part_moyen_pct", "part_mauvais_pct", "part_travaux_pct"]].copy()

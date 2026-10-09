@@ -4,7 +4,7 @@ from utils.components import render_header
 
 
 def show_objectifs():
-    render_header("ADMINISTRATION TERRITORIALE ET MOBILITE | DEFI 1")
+    render_header()
     st.markdown(
         """
         ### Objectifs

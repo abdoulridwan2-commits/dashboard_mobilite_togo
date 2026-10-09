@@ -1,4 +1,5 @@
 import base64
+from html import escape
 from pathlib import Path
 
 import streamlit as st
@@ -7,15 +8,22 @@ from config import APP_TITLE, COLORS
 
 
 def render_header(title: str = APP_TITLE):
+    lead, separator, remainder = title.partition("mobilité et de la sécurité routière")
+    if separator:
+        location = remainder.replace("au Togo", "").strip()
+        title_content = (
+            f'<span class="banner-title-lead">{escape(lead.strip())}</span>'
+            f'<strong class="banner-title-focus">{escape(separator.strip())}</strong>'
+            f'<span class="banner-title-location">{escape(location or "au Togo")}</span>'
+        )
+    else:
+        title_content = escape(title)
     st.markdown(
         f"""
         <div class="top-banner">
-            <div class="banner-left">
-                <div class="logo-mark">🛵</div>
-            </div>
-            <div class="banner-title">{title}</div>
-            <div class="banner-right">
-                <div class="banner-photo"></div>
+            <div class="banner-copy">
+                <h1 class="banner-title">{title_content}</h1>
+                <div class="banner-accent"></div>
             </div>
         </div>
         """,

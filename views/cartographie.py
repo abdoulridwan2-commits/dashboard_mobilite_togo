@@ -9,7 +9,7 @@ def show_cartographie():
     routes = data["routes"]
     auto_ecoles = data["auto_ecoles"]
 
-    render_header("ADMINISTRATION TERRITORIALE ET MOBILITE | DEFI 1")
+    render_header()
     section_title("Réseau routier et distribution des auto-écoles")
 
     st.write("Répartition des auto-écoles par région et par préfecture :")

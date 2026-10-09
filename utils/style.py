@@ -37,73 +37,61 @@ def inject_styles():
         .top-banner {
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            min-height: 128px;
+            justify-content: center;
+            min-height: 205px;
             width: 100%;
-            margin: 0 0 1.2rem 0;
-            border-radius: 0;
-            background: linear-gradient(90deg, #0a7b66 0%, #0f8f73 42%, #2ba463 100%);
-            border: 1px solid rgba(255,255,255,0.12);
-            box-shadow: var(--shadow);
-            position: relative;
+            margin: 0 0 1.4rem 0;
+            border-radius: 8px;
+            background: #f8fcfa;
+            border: 1px solid #d8e9e2;
+            box-shadow: 0 12px 28px rgba(15, 85, 64, 0.1);
             overflow: hidden;
-            padding: 0.8rem 1.25rem;
         }
 
-        .top-banner::after {
-            content: "";
-            position: absolute;
-            right: 0;
-            top: 0;
-            width: 22%;
-            height: 100%;
-            background: linear-gradient(120deg, rgba(255,255,255,0.0), rgba(255,255,255,0.12));
-            clip-path: polygon(26% 0%, 100% 0%, 100% 100%, 0% 100%);
+        .banner-copy {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-width: 0;
+            width: 100%;
+            padding: 1.5rem 1.25rem;
         }
 
-        .banner-title {
-            flex: 1;
+        .top-banner h1.banner-title {
+            max-width: 1040px;
             text-align: center;
-            font-size: clamp(1.5rem, 1.8vw, 2.4rem);
+            display: flex;
+            flex-direction: column;
+            gap: 0.06em;
+            margin: 0;
+            font-size: 1.85rem;
             font-weight: 800;
-            color: white;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
+            color: #12485b;
+            letter-spacing: 0;
             font-family: 'Segoe UI', Tahoma, sans-serif;
-            z-index: 1;
-            white-space: nowrap;
-            line-height: 1.15;
+            line-height: 1.12;
+            overflow-wrap: break-word;
         }
 
-        .banner-left, .banner-right {
-            width: 18%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1;
+        .banner-title-lead,
+        .banner-title-location {
+            display: block;
+            font-size: 0.84em;
         }
 
-        .logo-mark {
-            width: 74px;
-            height: 74px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #f4c542, #d8a526);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #0b604d;
-            font-size: 2.1rem;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-            font-weight: 900;
+        .banner-title-focus {
+            display: block;
+            color: #078746;
+            font-size: 1.2em;
+            line-height: 1.08;
         }
 
-        .banner-photo {
-            width: 170px;
-            height: 88px;
-            border-radius: 16px;
-            background: linear-gradient(135deg, rgba(255,255,255,0.12), rgba(0,0,0,0.16)),
-                        url('https://images.unsplash.com/photo-1558980664-10e7170b5df9?auto=format&fit=crop&w=800&q=80') center/cover no-repeat;
-            border: 2px solid rgba(255,255,255,0.2);
+        .banner-accent {
+            width: 88px;
+            height: 4px;
+            margin-top: 1.1rem;
+            background: #15965e;
         }
 
         .metric-card {
@@ -256,6 +244,16 @@ def inject_styles():
             letter-spacing: 0.08em;
             text-transform: uppercase;
             margin-bottom: 0.6rem;
+        }
+
+        @media (max-width: 760px) {
+            .banner-copy {
+                padding: 1.35rem 1rem;
+            }
+
+            .top-banner h1.banner-title {
+                font-size: 1.65rem;
+            }
         }
         </style>
         """,

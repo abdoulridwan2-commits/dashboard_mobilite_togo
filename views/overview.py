@@ -11,7 +11,7 @@ def show_overview():
     accidents = data["accidents"]
     regions = data["regions"]
 
-    render_header("ADMINISTRATION TERRITORIALE ET MOBILITE | DEFI 1")
+    render_header()
 
     latest_year = int(vehicules["annee"].max())
     latest_total = int(vehicules[vehicules["annee"] == latest_year]["valeur"].sum())

@@ -1,6 +1,6 @@
 import streamlit as st
 
-from config import NAV_ITEMS
+from config import APP_TITLE, NAV_ITEMS
 from utils.components import render_footer, render_sidebar
 from views.accidents import show_accidents
 from views.auto_ecoles import show_auto_ecoles
@@ -14,10 +14,10 @@ from utils.style import inject_styles
 
 
 st.set_page_config(
-    page_title="Mobilité et sécurité routière au Togo",
+    page_title=APP_TITLE,
     page_icon="🛵",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="auto",
 )
 
 inject_styles()
