@@ -44,21 +44,31 @@ def render_sidebar(items):
         unsafe_allow_html=True,
     )
 
-    st.sidebar.markdown("### Objectifs")
+    st.sidebar.markdown(
+        """
+        <div class="sidebar-group-heading">Objectifs</div>
+        """,
+        unsafe_allow_html=True,
+    )
     selection = st.sidebar.radio("Navigation", items, index=1, label_visibility="collapsed")
 
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("### Sections")
-
+    st.sidebar.markdown(
+        """
+        <div class="sidebar-section-label">Sections</div>
+        """,
+        unsafe_allow_html=True,
+    )
     st.sidebar.markdown("<div class='nav-box'>🚦 Mobilité</div>", unsafe_allow_html=True)
     st.sidebar.markdown("<div class='nav-box'>🛡️ Sécurité routière</div>", unsafe_allow_html=True)
     st.sidebar.markdown("<div class='nav-box'>🛣️ Réseau routier</div>", unsafe_allow_html=True)
     st.sidebar.markdown("<div class='nav-box'>🗺️ Cartographie</div>", unsafe_allow_html=True)
     st.sidebar.markdown("<div class='nav-box'>💡 Recommandations</div>", unsafe_allow_html=True)
 
-    if st.sidebar.button("🔄 Réinitialiser", use_container_width=True):
+    st.sidebar.markdown("<div class='nav-reset-holder'>", unsafe_allow_html=True)
+    if st.sidebar.button("◌ Réinitialiser", use_container_width=True):
         for key in list(st.session_state.keys()):
             del st.session_state[key]
+    st.sidebar.markdown("</div>", unsafe_allow_html=True)
 
     return selection
 

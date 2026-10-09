@@ -42,8 +42,8 @@ def inject_styles():
             width: 100%;
             margin: 0 0 1.2rem 0;
             border-radius: 0;
-            background: linear-gradient(90deg, #0d7b66 0%, #0f8f73 38%, #2b9f62 100%);
-            border: 1px solid rgba(255,255,255,0.15);
+            background: linear-gradient(90deg, #0a7b66 0%, #0f8f73 42%, #2ba463 100%);
+            border: 1px solid rgba(255,255,255,0.12);
             box-shadow: var(--shadow);
             position: relative;
             overflow: hidden;
@@ -55,10 +55,10 @@ def inject_styles():
             position: absolute;
             right: 0;
             top: 0;
-            width: 24%;
+            width: 22%;
             height: 100%;
-            background: linear-gradient(120deg, rgba(255,255,255,0.03), rgba(0,0,0,0.06));
-            clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+            background: linear-gradient(120deg, rgba(255,255,255,0.0), rgba(255,255,255,0.12));
+            clip-path: polygon(26% 0%, 100% 0%, 100% 100%, 0% 100%);
         }
 
         .banner-title {
@@ -176,6 +176,25 @@ def inject_styles():
             font-weight: 800;
             color: #0c6a5f;
             letter-spacing: -0.02em;
+        }
+
+        .sidebar-group-heading {
+            color: #0d5b4d;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 0.6rem 0 0.7rem 0;
+        }
+
+        .sidebar-section-label {
+            color: #2b4a4d;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 1.1rem 0 0.5rem 0;
+        }
+
+        .nav-reset-holder {
+            margin-top: 1.3rem;
+            padding-top: 0.7rem;
         }
 
         .footer-note {
