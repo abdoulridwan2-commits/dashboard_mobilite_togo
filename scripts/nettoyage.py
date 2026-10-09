@@ -27,13 +27,13 @@ RAW = BASE / "data" / "raw"
 OUT = BASE / "data" / "processed"
 
 FICHIERS = {
-    "parc": "observationdata-akkouh.csv",
-    "permis": "observationdata-wvtolmb.csv",
-    "accidents": "observationdata-hxdpzbg.csv",
-    "etat_routes": "observationdata-tmdtnad.csv",
-    "population": "observationdata-kwwolwb.csv",
-    "routes": "file-routes-routes-classees-18-12-2024-20-38-02.csv",
-    "auto_ecoles": "file-entreprises-auto-ecoles-02-01-2025-16-28-05.csv",
+    "parc": "parc_vehicules.csv",
+    "permis": "permis.csv",
+    "accidents": "accidents_trafic.csv",
+    "etat_routes": "etat_routes.csv",
+    "population": "population.csv",
+    "routes": "routes_classees.csv",
+    "auto_ecoles": "auto_ecoles.csv",
 }
 
 TYPES_VEHICULES = {
@@ -523,3 +523,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+ 
