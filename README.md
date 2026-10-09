@@ -18,16 +18,16 @@ Ce projet exploite les données ouvertes disponibles pour mesurer l'évolution d
 
 ## Pages du tableau de bord
 
-| Page                 | Contenu                                                                     |
-| -------------------- | --------------------------------------------------------------------------- |
-| Vue d'ensemble       | Indicateurs clés : immatriculations, accidents, état du réseau, auto-écoles |
-| Objectifs            | Objectifs du défi                                                           |
-| Véhicules & Permis   | Parc de véhicules par type et permis délivrés par catégorie                 |
-| Accidents & Sécurité | Accidents, blessés et morts, rapportés à la population et aux véhicules     |
-| Réseau routier       | État du réseau par région et par tronçon                                    |
-| Cartographie         | Réseau routier classé et auto-écoles par région et préfecture               |
-| Auto-écoles          | Répartition des auto-écoles et rapport à la population                      |
-| Recommandations      | Pistes d'action par région                                                  |
+| Page                 | Contenu                                                                                          |
+| -------------------- | ------------------------------------------------------------------------------------------------ |
+| Vue d'ensemble       | Indicateurs datés, flux annuels d'immatriculations, filtres de période et constats calculés      |
+| Objectifs            | Périmètre réellement disponible et limites d'interprétation                                      |
+| Véhicules & Permis   | Courbes filtrables par catégorie; comparaison en indice base 100 sur période commune             |
+| Accidents & Sécurité | Comptes nationaux séparés; taux par habitant calculés uniquement en 2022                         |
+| Réseau routier       | État 2020 filtrable par région et type, kilomètres et parts séparés                              |
+| Cartographie         | Géométries des routes classées et points d'auto-écoles filtrables par région/préfecture          |
+| Auto-écoles          | Entrées du registre, statuts et filtre territorial; absences signalées comme non-enregistrements |
+| Recommandations      | Actions avec constats, indicateurs, cible, priorité et limites                                   |
 
 ## Données
 
@@ -45,10 +45,16 @@ Les données proviennent du portail de données ouvertes du Togo. Les fichiers b
 
 ### Limites connues
 
-- Les accidents, les véhicules et les permis sont disponibles uniquement au niveau national : aucun indicateur d'accidents par région n'est calculable.
-- L'état du réseau routier ne couvre que l'année 2020.
-- Dans les données de population, Lomé (Golfe et Agoè-Nyivé) est séparé de la région Maritime, alors que les auto-écoles de Lomé sont classées dans la Maritime. Le calcul des ratios par habitant doit en tenir compte.
-- Les noms de régions et de préfectures diffèrent d'un fichier à l'autre (accents, majuscules) et doivent être normalisés avant les jointures.
+- Les accidents, immatriculations et permis sont nationaux; aucun taux d'accidents par région/préfecture n'est calculable.
+- Les immatriculations sont des flux annuels et ne constituent pas un stock de véhicules en circulation. Aucun taux d'accidents par véhicule n'est affiché.
+- La population n'est connue par recensement que pour 2022; les taux de mortalité et de blessés par habitant ne sont calculés que pour 2022.
+- L'état routier ne couvre que 2020. Environ 295 km sont attribués manuellement à une région et environ 11 km restent non attribués; ces derniers sont exclus des proportions régionales.
+- Les auto-écoles sont géolocalisées, mais leur fichier ne précise ni millésime ni exhaustivité. Une préfecture sans entrée n'est pas déclarée dépourvue de service.
+- Les ratios d'auto-écoles utilisent la population du recensement 2022 avec un inventaire non daté : ils sont descriptifs et leur comparabilité temporelle n'est pas vérifiée.
+- Les ratios routiers sont des kilomètres par habitant, pas une densité par superficie (les superficies territoriales ne sont pas fournies).
+- Le libellé source « Accidents mortels /100.000 hab » est ambigu; il est conservé comme taux source séparé et ne sert pas à reconstruire les populations historiques.
+- L'année 2013 n'a aucune valeur par catégorie de permis; elle reste vide et n'est pas traitée comme zéro.
+- Les fichiers bruts du dépôt ne contiennent pas les URL sources par fichier ni les dates d'extraction. Ces métadonnées doivent être ajoutées dès qu'elles sont récupérées du portail.
 
 ## Installation
 
@@ -98,7 +104,7 @@ dashboard-mobilite-securite-routiere-togo/
 │   └── nettoyage.py       # Nettoyage et préparation des données
 ├── utils/
 │   ├── style.py           # Feuille de style (CSS)
-│   ├── components.py      # Bandeau, filtres, cartes, pied de page
+│   ├── components.py      # Bandeau, navigation, cartes et pied de page
 │   └── data.py            # Chargement des données
 └── views/                 # Une page par entrée de la barre latérale
 ```
@@ -107,15 +113,18 @@ dashboard-mobilite-securite-routiere-togo/
 
 Python, Streamlit, pandas, Plotly, GeoPandas, Folium.
 
-## Avancement
+## Méthodologie
 
-- [x] Structure du projet et maquette de l'interface
-- [ ] Nettoyage et harmonisation des données
-- [ ] Page Véhicules & Permis
-- [ ] Page Accidents & Sécurité
-- [ ] Page Réseau routier
-- [ ] Cartographie et page Auto-écoles
-- [ ] Recommandations
+- Le rapport reproductible `data/processed/rapport_qualite.txt` est généré par `python scripts/nettoyage.py`.
+- Les taux par habitant en sécurité routière utilisent le recensement 2022 : nombre de morts ou de blessés / 8 095 498 habitants × 100 000.
+- Le ratio morts / 100 accidents est un quotient brut : morts / accidents × 100; il ne s'agit pas d'un taux de mortalité des personnes accidentées.
+- Les parts d'état routier sont calculées par longueur : kilomètres d'un état / kilomètres d'état connus × 100.
+- L'indice base 100 des véhicules et permis compare uniquement leurs variations, pas leurs volumes, et ne démontre pas de relation causale.
+- Les changements d'accidents supérieurs à 50 % en 2011 et 2016 sont signalés comme ruptures à vérifier, sans conclure à leur cause.
+
+## État d'avancement
+
+Le dashboard, les vues principales, les filtres de période/territoire, la carte et le rapport qualité sont implémentés. Les métadonnées de provenance détaillées et l'historique de l'état routier restent à obtenir; les accidents par territoire et le parc roulant ne sont pas présents dans les fichiers actuels.
 
 ## Auteur
 

@@ -17,8 +17,8 @@ COLORS = {
 }
 
 NAV_ITEMS = [
-    "Objectifs",
     "Vue d'ensemble",
+    "Objectifs",
     "Mobilité",
     "Sécurité routière",
     "Réseau routier",

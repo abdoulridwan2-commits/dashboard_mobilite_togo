@@ -4,6 +4,7 @@ NETTOYAGE DES DONNÉES - Mobilité et sécurité routière au Togo
 1. PARC DE VÉHICULES IMMATRICULÉS (national)
 ======================================================================
   Années : 1990-2022 ; valeurs manquantes : 0
+  Unité source : ['Nombre'] ; valeur = immatriculations annuelles.
   La ligne « Total » de la source est exclue des types (évite le double comptage).
   Contrôle : la somme des types égale le Total source pour toutes les années.
   -> data/processed/parc_vehicules.csv (231 lignes)
@@ -11,17 +12,20 @@ NETTOYAGE DES DONNÉES - Mobilité et sécurité routière au Togo
 ======================================================================
 2. PERMIS DE CONDUIRE DÉLIVRÉS (national)
 ======================================================================
-  Années : 2007-2022
+  Période de la source : 2007-2022 ; catégories : ['A', 'B', 'C', 'D', 'E', 'F'].
+  Unité source : ['Nombre'] ; valeur = permis délivrés durant l'année.
+  Années sans aucune valeur par catégorie : [2013] ; les cellules restent vides, pas à zéro.
   Contrôle : la somme des catégories égale le Total source (hors années vides).
-  À vérifier : permis moto très supérieurs à la médiane (236) en {2019: 2425, 2022: 4837}
-  -> data/processed/permis.csv (90 lignes)
+  À vérifier : permis moto très supérieurs à la médiane (236) en {2019: 2425.0, 2022: 4837.0}
+  -> data/processed/permis.csv (96 lignes)
 
 ======================================================================
 4. ROUTES CLASSÉES (tracés)
 ======================================================================
   799 segments, 38 préfectures, 5 régions.
   Segments sans nom de route : 2 (marqués « Non renseigné »).
-  Colonne route_classee supprimée (toujours « Oui »). Longueur calculée depuis la géométrie.
+  Types de route et revêtements conservés; la colonne route_classee est supprimée (toujours « Oui »).
+  Longueur calculée depuis la géométrie WKT (somme des distances haversine entre sommets, en km).
   Longueur totale : 3373 km dont revêtue : 2185 km.
   -> data/processed/routes_classees.csv (799 lignes)
 
@@ -30,6 +34,8 @@ NETTOYAGE DES DONNÉES - Mobilité et sécurité routière au Togo
 ======================================================================
   272 auto-écoles ; sans coordonnées : 0.
   Statuts : {'Non agréée': 138, 'Agréée': 85, 'Antenne agréée': 47, 'Non renseigné': 2}
+  Le fichier source ne contient pas de date d'observation ni d'indicateur d'exhaustivité.
+  Aucune entrée dans une préfecture signifie absence d'enregistrement dans ce fichier, pas absence prouvée de service.
   Colonne activite_categorie supprimée (toujours « Auto-école »).
   -> data/processed/auto_ecoles.csv (272 lignes)
 
@@ -58,17 +64,20 @@ NETTOYAGE DES DONNÉES - Mobilité et sécurité routière au Togo
 ======================================================================
 3. ACCIDENTS DE LA ROUTE (national)
 ======================================================================
-  Libellé source « Accidents mortels /100.000 hab » : valeurs vérifiées comme
-  accidents / population x 100 000 (2022 : 92.73 calculé contre 92.73 dans la source).
-  La colonne est donc renommée accidents_pour_100k_hab.
-  Années : 2010-2022
-  Population : seul le recensement 2022 est dans les données ; pour 2010-2021 elle est
-  ESTIMÉE à partir du taux ci-dessus (croissance régulière, donc cohérente).
+  Nombres absolus : accidents, blessés et morts conservés séparément (2010-2022).
+  Unités source : ['Nombre'] ; les trois comptes ne sont pas interchangeables.
+  Population recensée disponible uniquement en 2022 ; les taux morts/blessés par habitant
+  ne sont donc calculés que pour 2022. Aucune population historique n'est déduite du taux source.
+  Contrôle 2022 du taux source : accidents/population x 100 000 = 92.73 ; source = 92.73.
+  Le taux source reste identifié séparément et n'est pas utilisé pour reconstruire la population.
+  Aucun taux par véhicule n'est publié : les données du parc sont des immatriculations annuelles,
+  pas un stock de véhicules en circulation avec un dénominateur compatible.
+  Formules publiées : morts ou blessés / population recensée 2022 x 100 000 (2022 seulement) ;
+  morts / accidents x 100 (ratio brut, pas un taux de mortalité des personnes accidentées).
+  Années : 2010-2022 ; accidents au niveau national uniquement.
   À vérifier : accidents en variation de 154% en 2011 (changement de couverture ?).
   À vérifier : accidents en variation de 89% en 2016 (changement de couverture ?).
-  Rappel : le parc immatriculé varie fortement d'une année à l'autre ; il s'agit donc
-  d'immatriculations annuelles, plus que d'un parc cumulé. Les ratios « pour 1000 véhicules »
-  sont à présenter avec cette réserve.
+  La série véhicules est un flux annuel d'immatriculations ; elle ne constitue pas un stock roulant.
   -> data/processed/accidents_national.csv (13 lignes)
   -> data/processed/autres_indicateurs_nationaux.csv (157 lignes)
   Recoupement : 9 années de deux-roues présentes aussi dans ce fichier (ignorées, déjà dans le parc).
@@ -78,7 +87,8 @@ NETTOYAGE DES DONNÉES - Mobilité et sécurité routière au Togo
 ======================================================================
   86 tronçons ({'Routes revêtues': 52, 'Routes en terre': 32, 'Voiries en terre': 1, 'Voiries revêtues': 1}).
   Lignes « TOTAL » et « TOTAL RT » de la source retirées des tronçons (sinon doubles comptages) ;
-  état « TRAVAUX » traité comme une catégorie à part ; valeurs absentes = 0 km.
+  État « TRAVAUX » traité séparément; une ligne source absente est encodée à 0 km mais reste signalée.
+  Enregistrement TRAVAUX absent pour 69 tronçon(s) : 0 signifie aucune valeur listée, pas une mesure explicite.
   Un seul millésime (2020) : pas d'évolution possible, seulement une photo par région.
   Contrôle : somme des tronçons contre les totaux de la source :
     Routes en terre    OK
@@ -93,6 +103,14 @@ NETTOYAGE DES DONNÉES - Mobilité et sécurité routière au Togo
 8. INDICATEURS PAR PRÉFECTURE ET PAR RÉGION
 ======================================================================
   -> data/processed/indicateurs_prefectures.csv (39 lignes)
+  Les indicateurs préfectoraux distinguent maintenant entrée présente et aucune ligne source.
+  Les ratios d'auto-écoles/préfecture restent descriptifs : inventaire sans millésime / population du recensement 2022.
   -> data/processed/indicateurs_regions.csv (5 lignes)
+  Formules territoriales préparées : auto-écoles listées / population 2022 x 100 000 ;
+  longueur de routes classées / population 2022 x 1 000 ; part d'état = km d'un état / total km d'état x 100.
+  Le ratio de routes par population n'est pas une densité par superficie; aucune superficie n'est fournie.
+  Comparaison véhicules/permis dans l'interface : valeur annuelle / première valeur commune de la période x 100.
+  Un indice base 100 compare les variations, pas les volumes; il ne démontre pas de lien causal.
   Rappel : l'état des routes ne concerne que les routes (revêtues et en terre) rattachées à une
   région ; les tronçons « Non attribué » sont exclus de ces parts.
+  Provenance : les fichiers bruts ne contiennent pas d'URL source ni de date d'extraction par jeu.

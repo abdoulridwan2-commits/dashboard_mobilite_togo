@@ -10,68 +10,94 @@ def show_overview():
     vehicules = data["vehicules"]
     accidents = data["accidents"]
     regions = data["regions"]
+    auto_ecoles = data["auto_ecoles"]
 
     render_header()
 
     latest_year = int(vehicules["annee"].max())
-    latest_total = int(vehicules[vehicules["annee"] == latest_year]["valeur"].sum())
-    accidents_2022 = accidents[accidents["annee"] == 2022].iloc[0]
-    mauvais_etat = regions["part_mauvais_pct"].mean()
+    latest_total = int(vehicules.loc[vehicules["annee"] == latest_year, "valeur"].sum())
+    accidents_2022 = accidents.loc[accidents["annee"] == 2022].iloc[0]
+    mauvais_km = regions["etat_mauvais_km"].sum()
+    etat_total_km = regions["etat_total_km"].sum()
+    part_mauvais_ponderee = mauvais_km / etat_total_km * 100
+    immats_2022 = vehicules.loc[vehicules["annee"] == latest_year].groupby("groupe")["valeur"].sum()
+    part_motos = immats_2022.get("Deux-roues", 0) / latest_total * 100
+    worst_share = regions.sort_values("part_mauvais_pct", ascending=False).iloc[0]
+    worst_absolute = regions.sort_values("etat_mauvais_km", ascending=False).iloc[0]
 
     st.markdown("<div class='kicker'>Vue d'ensemble</div>", unsafe_allow_html=True)
-    cols = st.columns(3)
+    cols = st.columns(4)
     with cols[0]:
-        metric_card("Véhicules immatriculés", f"{latest_total:,.0f}", f"en {latest_year}")
+        metric_card("Immatriculations annuelles", f"{latest_total:,.0f}", f"en {latest_year}, toutes catégories")
     with cols[1]:
-        metric_card("Accidents", f"{int(accidents_2022['accidents']):,}", "en 2022")
+        metric_card("Accidents", f"{int(accidents_2022['accidents']):,}", "en 2022, national")
     with cols[2]:
-        metric_card("Réseau en mauvais état", f"{mauvais_etat:.1f}%", "part moyenne régionale")
+        metric_card("Routes en mauvais état", f"{part_mauvais_ponderee:.1f}%", "part pondérée, état 2020")
+    with cols[3]:
+        metric_card("Auto-écoles listées", f"{len(auto_ecoles):,}", "inventaire sans millésime dans le fichier")
 
-    view_mode = st.radio("Visualisation", ["Graphique", "Carte"], horizontal=True, key="overview_mode")
+    st.caption(
+        "Les immatriculations sont un flux annuel, pas un parc roulant. Les accidents sont nationaux; "
+        "l’état des routes est observé en 2020 (routes non attribuées exclues des parts) et "
+        "l’inventaire des auto-écoles n’est pas daté."
+    )
 
-    if view_mode == "Graphique":
+    min_year = int(vehicules["annee"].min())
+    year_range = st.slider(
+        "Période des immatriculations",
+        min_value=min_year,
+        max_value=latest_year,
+        value=(min_year, latest_year),
+        key="overview_vehicle_year_range",
+    )
+    groups = sorted(vehicules["groupe"].dropna().unique().tolist())
+    selected_groups = st.multiselect(
+        "Catégories affichées",
+        groups,
+        default=groups,
+        key="overview_vehicle_groups",
+    )
+    chart_data = vehicules[
+        vehicules["annee"].between(*year_range)
+        & vehicules["groupe"].isin(selected_groups)
+    ]
+    if chart_data.empty:
+        st.info("Sélectionne au moins une catégorie.")
+    else:
         fig = px.line(
-            vehicules[vehicules["groupe"].isin(["Deux-roues", "Voitures et camionnettes", "Poids lourds"])],
+            chart_data,
             x="annee",
             y="valeur",
             color="groupe",
-            title="Évolution des véhicules immatriculés",
-            labels={"annee": "Année", "valeur": "Nombre de véhicules", "groupe": "Catégorie"},
+            markers=True,
+            title="Flux annuel d’immatriculations par groupe",
+            labels={"annee": "Année", "valeur": "Immatriculations", "groupe": "Groupe"},
         )
-        fig.update_layout(template="plotly_white", legend_title_text="Catégorie")
-        st.plotly_chart(fig, use_container_width=True)
-    else:
-        map_data = regions.sort_values("auto_ecoles_pour_100k_hab", ascending=False)
-        fig = px.bar(
-            map_data,
-            x="region",
-            y="auto_ecoles_pour_100k_hab",
-            title="Auto-écoles pour 100 000 habitants par région",
-            color="region",
-            labels={"region": "Région", "auto_ecoles_pour_100k_hab": "Auto-écoles / 100k hab"},
-        )
-        fig.update_layout(template="plotly_white", showlegend=False)
-        st.plotly_chart(fig, use_container_width=True)
+        fig.update_layout(template="plotly_white", legend_title_text="Groupe")
+        st.plotly_chart(fig, width="stretch")
 
-    st.markdown("### Analyse synthétique")
+    st.markdown("### Constats mesurés")
     col1, col2 = st.columns(2)
-
     with col1:
-        st.markdown(
-            """
-            - Les motos dominent aujourd’hui le parc de véhicules et expliquent la forte hausse des immatriculations.
-            - Les accidents restent très élevés, avec plus de 7 500 cas enregistrés en 2022.
-            - Le réseau routier est inégalement réparti : plusieurs régions affichent une part significative de tronçons en mauvais état.
-            """
+        st.write(
+            f"En {latest_year}, les deux-roues représentent {part_motos:.1f}% des immatriculations "
+            "annuelles enregistrées. Cette part décrit le flux de l’année, pas la composition du parc en circulation."
+        )
+        st.write(
+            f"En 2022, {int(accidents_2022['accidents']):,} accidents, "
+            f"{int(accidents_2022['blesses']):,} blessés et {int(accidents_2022['morts']):,} morts "
+            "sont enregistrés au niveau national. Les fichiers ne permettent pas une attribution territoriale."
         )
 
     with col2:
-        worst_region = regions.sort_values("part_mauvais_pct", ascending=False).iloc[0]
-        best_region = regions.sort_values("part_bon_pct", ascending=False).iloc[0]
-        st.markdown(
-            f"""
-            - La région la plus touchée par le mauvais état est **{worst_region['region']}** avec {worst_region['part_mauvais_pct']}% de routes en mauvais état.
-            - La région la mieux servie est **{best_region['region']}** avec {best_region['part_bon_pct']}% de routes en bon état.
-            - Les auto-écoles restent concentrées dans les zones urbaines, surtout dans la région Maritime.
-            """
+        st.write(
+            f"Sur l’état routier 2020, {worst_share['region']} a la part la plus élevée de kilomètres "
+            f"en mauvais état ({worst_share['part_mauvais_pct']:.1f}%), tandis que {worst_absolute['region']} "
+            f"enregistre le plus grand volume ({worst_absolute['etat_mauvais_km']:.1f} km). "
+            "Part et volume répondent à deux questions différentes."
+        )
+        maritime = auto_ecoles.loc[auto_ecoles["region"] == "Maritime"]
+        st.write(
+            f"L’inventaire contient {len(maritime)} entrées en Maritime sur {len(auto_ecoles)} au total. "
+            "Le fichier n’indique pas sa date ni son exhaustivité; cela ne prouve pas l’absence de services ailleurs."
         )

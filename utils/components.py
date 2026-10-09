@@ -66,7 +66,7 @@ def render_sidebar(items):
     selection = st.sidebar.radio("Navigation", items, index=0, label_visibility="collapsed")
 
     st.sidebar.markdown("<div class='nav-reset-holder'>", unsafe_allow_html=True)
-    if st.sidebar.button("◌ Réinitialiser", use_container_width=True):
+    if st.sidebar.button("◌ Réinitialiser", width="stretch"):
         for key in list(st.session_state.keys()):
             del st.session_state[key]
     st.sidebar.markdown("</div>", unsafe_allow_html=True)
