@@ -18,16 +18,18 @@ Ce projet exploite les données ouvertes disponibles pour mesurer l'évolution d
 
 ## Pages du tableau de bord
 
-| Page                 | Contenu                                                                                          |
-| -------------------- | ------------------------------------------------------------------------------------------------ |
-| Vue d'ensemble       | Indicateurs datés, flux annuels d'immatriculations, filtres de période et constats calculés      |
-| Objectifs            | Périmètre réellement disponible et limites d'interprétation                                      |
-| Véhicules & Permis   | Courbes filtrables par catégorie; comparaison en indice base 100 sur période commune             |
-| Accidents & Sécurité | Comptes nationaux séparés; taux par habitant calculés uniquement en 2022                         |
-| Réseau routier       | État 2020 filtrable par région et type, kilomètres et parts séparés                              |
-| Cartographie         | Géométries des routes classées et points d'auto-écoles filtrables par région/préfecture          |
-| Auto-écoles          | Entrées du registre, statuts et filtre territorial; absences signalées comme non-enregistrements |
-| Recommandations      | Actions avec constats, indicateurs, cible, priorité et limites                                   |
+| Page | Contenu |
+| :--- | :--- |
+| **Objectifs** | Contexte du défi, objectifs, périmètre des 7 fichiers et rapport de qualité reproductible |
+| **Vue d'ensemble** | 4 cartes KPI clés (immatriculations, accidents, réseau, auto-écoles), graphiques de synthèse et constats majeurs |
+| **Véhicules & Permis** | Évolution par catégorie, analyse du décrochage motos vs permis A et indice comparatif base 100 |
+| **Accidents & Sécurité** | Comptes d'accidents, blessés, décès, ratios rapportés à la population 2022 et analyse des ruptures |
+| **Réseau routier** | Diagnostic 2020 filtrable par catégorie et région, double lecture % dégradation vs linéaire km |
+| **Cartographie** | Carte interactive Folium (tracés WKT des routes et points d'auto-écoles avec filtres et popups) |
+| **Auto-écoles** | Répartition spatiale, statuts d'agrément, classement préfectoral et ratios pour 100 000 habitants |
+| **Recommandations** | 4 axes d'action opérationnels et prioritaires découlant strictement des indicateurs calculés |
+
+Le rapport complet d'analyse et de méthodologie est disponible dans [RAPPORT_METHODOLOGIQUE.md](RAPPORT_METHODOLOGIQUE.md).
 
 ## Données
 

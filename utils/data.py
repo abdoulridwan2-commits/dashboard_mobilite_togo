@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import pandas as pd
+import streamlit as st
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data" / "processed"
@@ -10,7 +11,9 @@ def load_csv(name: str) -> pd.DataFrame:
     return pd.read_csv(DATA_DIR / name)
 
 
+@st.cache_data(show_spinner=False)
 def get_data() -> dict:
+    """Charge l'ensemble des jeux de données nettoyés avec mise en cache mémoire."""
     return {
         "vehicules": load_csv("parc_vehicules.csv"),
         "permis": load_csv("permis.csv"),
@@ -21,3 +24,4 @@ def get_data() -> dict:
         "auto_ecoles": load_csv("auto_ecoles.csv"),
         "etat_routes": load_csv("etat_routes.csv"),
     }
+
